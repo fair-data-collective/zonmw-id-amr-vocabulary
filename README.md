@@ -5,7 +5,7 @@ Controlled vocabularies allow an accurate and controlled approach in describing 
 
 `sheet2rdf` and `OntoStack`, developed by [FAIR Data Collective](https://dk.linkedin.com/company/fair-data-collective), are used to build and serve **ZonMw COVID19 Controlled Vocabulary**, while [PURL](https://archive.org/services/purl/) is used to persist identifiers for the vocabulary terms and properties:
 
-   http://purl.org/zonmw/covid19
+   http://purl.org/zonmw/id-amr
 
 
 # Tooling
