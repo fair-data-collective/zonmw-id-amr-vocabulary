@@ -5,6 +5,7 @@ PREFIX,dct,http://purl.org/dc/terms/
 PREFIX,owl,http://www.w3.org/2002/07/owl#
 PREFIX,xsd,http://www.w3.org/2001/XMLSchema#
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#
+PREFIX,covid19,http://purl.org/zonmw/covid19/
 skos:prefLabel,ZonMW Project Controlled Vocabulary of Variables
 dct:title,ZonMW Project Controlled Vocabulary of Variables
 dct:description,Controlled vocabulary of variables used in ZonMV COVID project
@@ -22,7 +23,8 @@ pav:lastUpdatedOn,2020-10-30T13:43:00+00:00
 
 Identifier,skos:prefLabel@en,"skos:altLabel(separator="","")",skos:definition@en,"skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")","skos:broadMatch(separator="","")","skos:narrowMatch(separator="","")","skos:relatedMatch(separator="","")",owl:deprecated^^xsd:boolean,dct:isReplacedBy,skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
 id-amr:10000,Deprecated,,This is a set of controlled terms which are deprecated.,,, 
-id-amr:10001,diary cattle,,,,, 
+covid19:10001,spatial scope
+id-amr:10001,diary cattle,,,covid19:10001,, 
 id-amr:10002,veal calve
 id-amr:10003,beef cattle
 id-amr:10004,buffalo
