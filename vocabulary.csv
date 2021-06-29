@@ -11,9 +11,9 @@ dct:title,ZonMW Project Controlled Vocabulary of Variables
 dct:description,Controlled vocabulary of variables used in ZonMV COVID project
 dct:creator
 dct:rights,https://spdx.org/licenses/CC0-1.0 
-pav:version,0.1.0
+pav:version,1.0.0
 pav:createdOn,2021-02-08T10:36:00+00:00
-pav:lastUpdatedOn,2020-10-30T13:43:00+00:00
+pav:lastUpdatedOn,2021-06-29T08:26:00+00:00
 
 
 
@@ -23,21 +23,85 @@ pav:lastUpdatedOn,2020-10-30T13:43:00+00:00
 
 Identifier,skos:prefLabel@en,"skos:altLabel(separator="","")",skos:definition@en,"skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")","skos:broadMatch(separator="","")","skos:narrowMatch(separator="","")","skos:relatedMatch(separator="","")",owl:deprecated^^xsd:boolean,dct:isReplacedBy,skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
 id-amr:10000,Deprecated,,This is a set of controlled terms which are deprecated.,,, 
-covid19:10001,spatial scope
-id-amr:10001,diary cattle,,,covid19:10001,, 
-id-amr:10002,veal calve
-id-amr:10003,beef cattle
-id-amr:10004,buffalo
-id-amr:10005,sheep (wool)
-id-amr:10006,sheep (milk)
-id-amr:10007,goat (meat)
-id-amr:10008,goat (milk)
-id-amr:10009,horse
-id-amr:10010,pig
-id-amr:10011,broiler
-id-amr:10012,animal group
-id-amr:10013,insect
-id-amr:10014,livestock
-id-amr:10015,poultry
-id-amr:10016,wildlife
-id-amr:10017,companion animal
+covid19:10225,focus area
+id-amr:10001,therapeutics,,,covid19:10225,, 
+id-amr:10002,surveillance,,,covid19:10225
+covid19:10232,diagnostics,,,covid19:10225
+id-amr:10004,transmission,,,covid19:10225
+id-amr:10005,intervention,,,covid19:10225
+id-amr:10006,appropriate use antimicrobials,,,covid19:10225
+id-amr:10007,stewardship,,,covid19:10225
+id-amr:10008,zoonotic disease,,,covid19:10225
+id-amr:10009,non-foodborne zoonotic disease,,,covid19:10225
+id-amr:10010,non-foodborne disease,,,covid19:10225
+id-amr:10011,foodborne disease,,,covid19:10225
+id-amr:10012,microbiome,,,covid19:10225
+id-amr:10013,other focus area,,,covid19:10225
+id-amr:10014,One Health domain
+id-amr:10015,human,,,"id-amr:10014, covid19:10145"
+id-amr:10016,animal,,,"id-amr:10014, covid19:10145"
+id-amr:10017,environment,,,id-amr:10014
+id-amr:10018,plant,,,id-amr:10014
+id-amr:10019,microorganism,,,"id-amr:10014, covid19:10145"
+id-amr:10020,disease,,,id-amr:10014
+covid19:10017,temporal scope
+id-amr:10021,diagnostic phase,,,covid19:10017
+id-amr:10022,screening phase,,,covid19:10017
+id-amr:10023,intervention phase,,,covid19:10017
+id-amr:10024,disease phase,,,covid19:10017
+id-amr:10025,free-from-disease phase,,,covid19:10017
+covid19:10037,aftercare phase,,,covid19:10017
+id-amr:10027,population group
+id-amr:10028,subject with an infection,,,covid19:10037
+id-amr:10029,subject with a bacterial infection,,,covid19:10037
+id-amr:10030,subject with a viral infection,,,covid19:10037
+id-amr:10031,subject with an unknown infection,,,covid19:10037
+id-amr:10032,subject with risk of infection,,,covid19:10037
+id-amr:10033,subject with risk of bacterial infection,,,covid19:10037
+id-amr:10034,subject with risk of viral infection,,,covid19:10037
+id-amr:10035,subject having antimicrobial treatment,,,covid19:10037
+id-amr:10036,subject having vaccination,,,covid19:10037
+id-amr:10037,subject having other treatments,,,covid19:10037
+id-amr:10038,subject by age,,,covid19:10037
+id-amr:10039,subject by sex,,,covid19:10037
+id-amr:10040,infectious agent,pathogen,,covid19:10037
+id-amr:10041,infectious agent having antimicrobial resistance,,,covid19:10037
+id-amr:10042,soil,,,id-amr:10017
+id-amr:10043,soil-waste,,,id-amr:10017
+id-amr:10044,wastewater,,,id-amr:10017
+id-amr:10045,water,,,id-amr:10017
+id-amr:10046,air,,,id-amr:10017
+id-amr:10047,livestock,,,id-amr:10016
+id-amr:10048,diary cattle,,,id-amr:10047
+id-amr:10049,veal calve,,,id-amr:10047
+id-amr:10050,beef cattle,,,id-amr:10047
+id-amr:10051,buffalo,,,id-amr:10047
+id-amr:10052,sheep (wool),,,id-amr:10047
+id-amr:10053,sheep (milk),,,id-amr:10047
+id-amr:10054,goat (meat),,,id-amr:10047
+id-amr:10055,goat (milk),,,id-amr:10047
+id-amr:10056,horse,,,id-amr:10047
+id-amr:10057,pig,,,id-amr:10047
+id-amr:10058,broiler,,,id-amr:10047
+id-amr:10059,layer,,,id-amr:10047
+id-amr:10060,poultry,,,id-amr:10047
+id-amr:10061,insect,,,id-amr:10016
+id-amr:10062,wildlife,,,id-amr:10016
+id-amr:10063,companion animal,,,id-amr:10016
+id-amr:10065,fungus,,,id-amr:10019
+id-amr:10066,fish (aquaculture),,,id-amr:10016,,,covid19:10145
+covid19:10107,data,,,,,,covid19:10169
+id-amr:10068,epidemiological data,,,covid19:10107,,,covid19:10169
+id-amr:10069,diagnostics usage data,,,covid19:10107
+id-amr:10070,complete medical records ,,,covid19:10107
+id-amr:10071,imaging data,,,covid19:10107
+id-amr:10072,data with respect to resistance,,,covid19:10107
+id-amr:10073,health status data,,,covid19:10107
+id-amr:10074,taxonomical data,,,covid19:10107
+covid19:10125,survey data,,,covid19:10107
+covid19:10122,economic data,,,covid19:10107
+covid19:10114,treatment data,,,covid19:10107
+covid19:10127,environmental data,,,covid19:10107
+covid19:10244,genomics data,,,covid19:10107
+covid19:10112,physiological data,,,covid19:10107
+covid19:10132,audiovisual data,,,covid19:10107

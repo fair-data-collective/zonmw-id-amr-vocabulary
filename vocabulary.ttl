@@ -24,12 +24,10 @@
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "ZonMW Project Controlled Vocabulary of Variables"@en;
   pav:createdOn "2021-02-08T10:36:00+00:00"@en;
-  pav:lastUpdatedOn "2020-10-30T13:43:00+00:00"@en;
-  pav:version "0.1.0"@en;
-  skos:hasTopConcept covid19:10001, id-amr:10000, id-amr:10002, id-amr:10003, id-amr:10004,
-    id-amr:10005, id-amr:10006, id-amr:10007, id-amr:10008, id-amr:10009, id-amr:10010,
-    id-amr:10011, id-amr:10012, id-amr:10013, id-amr:10014, id-amr:10015, id-amr:10016,
-    id-amr:10017;
+  pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
+  pav:version "1.0.0"@en;
+  skos:hasTopConcept covid19:10017, covid19:10107, covid19:10225, id-amr:10000, id-amr:10014,
+    id-amr:10027;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -38,93 +36,437 @@ id-amr:10000 a skos:Concept;
   skos:prefLabel "Deprecated"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
-covid19:10001 a skos:Concept;
+covid19:10225 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10001;
-  skos:prefLabel "spatial scope"@en;
+  skos:narrower covid19:10232, id-amr:10001, id-amr:10002, id-amr:10004, id-amr:10005,
+    id-amr:10006, id-amr:10007, id-amr:10008, id-amr:10009, id-amr:10010, id-amr:10011,
+    id-amr:10012, id-amr:10013;
+  skos:prefLabel "focus area"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10001 a skos:Concept;
-  skos:broader covid19:10001;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "diary cattle"@en .
+  skos:prefLabel "therapeutics"@en .
 
 id-amr:10002 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "veal calve"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "surveillance"@en .
 
-id-amr:10003 a skos:Concept;
+covid19:10232 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "beef cattle"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "diagnostics"@en .
 
 id-amr:10004 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "buffalo"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "transmission"@en .
 
 id-amr:10005 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "sheep (wool)"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "intervention"@en .
 
 id-amr:10006 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "sheep (milk)"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "appropriate use antimicrobials"@en .
 
 id-amr:10007 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "goat (meat)"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "stewardship"@en .
 
 id-amr:10008 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "goat (milk)"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "zoonotic disease"@en .
 
 id-amr:10009 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "horse"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "non-foodborne zoonotic disease"@en .
 
 id-amr:10010 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "pig"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "non-foodborne disease"@en .
 
 id-amr:10011 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "broiler"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "foodborne disease"@en .
 
 id-amr:10012 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "animal group"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "microbiome"@en .
 
 id-amr:10013 a skos:Concept;
+  skos:broader covid19:10225;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "insect"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "other focus area"@en .
 
 id-amr:10014 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "livestock"@en;
+  skos:narrower id-amr:10015, id-amr:10016, id-amr:10017, id-amr:10018, id-amr:10019,
+    id-amr:10020;
+  skos:prefLabel "One Health domain"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10015 a skos:Concept;
+  skos:broader covid19:10145, id-amr:10014;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "poultry"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:prefLabel "human"@en .
 
 id-amr:10016 a skos:Concept;
+  skos:broader covid19:10145, id-amr:10014;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "wildlife"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+  skos:narrower id-amr:10047, id-amr:10061, id-amr:10062, id-amr:10063, id-amr:10066;
+  skos:prefLabel "animal"@en .
 
 id-amr:10017 a skos:Concept;
+  skos:broader id-amr:10014;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "companion animal"@en;
+  skos:narrower id-amr:10042, id-amr:10043, id-amr:10044, id-amr:10045, id-amr:10046;
+  skos:prefLabel "environment"@en .
+
+id-amr:10018 a skos:Concept;
+  skos:broader id-amr:10014;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "plant"@en .
+
+id-amr:10019 a skos:Concept;
+  skos:broader covid19:10145, id-amr:10014;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10065;
+  skos:prefLabel "microorganism"@en .
+
+id-amr:10020 a skos:Concept;
+  skos:broader id-amr:10014;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "disease"@en .
+
+covid19:10017 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower covid19:10037, id-amr:10021, id-amr:10022, id-amr:10023, id-amr:10024,
+    id-amr:10025;
+  skos:prefLabel "temporal scope"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10021 a skos:Concept;
+  skos:broader covid19:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "diagnostic phase"@en .
+
+id-amr:10022 a skos:Concept;
+  skos:broader covid19:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "screening phase"@en .
+
+id-amr:10023 a skos:Concept;
+  skos:broader covid19:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "intervention phase"@en .
+
+id-amr:10024 a skos:Concept;
+  skos:broader covid19:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "disease phase"@en .
+
+id-amr:10025 a skos:Concept;
+  skos:broader covid19:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "free-from-disease phase"@en .
+
+covid19:10037 a skos:Concept;
+  skos:broader covid19:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10028, id-amr:10029, id-amr:10030, id-amr:10031, id-amr:10032,
+    id-amr:10033, id-amr:10034, id-amr:10035, id-amr:10036, id-amr:10037, id-amr:10038,
+    id-amr:10039, id-amr:10040, id-amr:10041;
+  skos:prefLabel "aftercare phase"@en .
+
+id-amr:10027 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "population group"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10028 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject with an infection"@en .
+
+id-amr:10029 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject with a bacterial infection"@en .
+
+id-amr:10030 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject with a viral infection"@en .
+
+id-amr:10031 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject with an unknown infection"@en .
+
+id-amr:10032 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject with risk of infection"@en .
+
+id-amr:10033 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject with risk of bacterial infection"@en .
+
+id-amr:10034 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject with risk of viral infection"@en .
+
+id-amr:10035 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject having antimicrobial treatment"@en .
+
+id-amr:10036 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject having vaccination"@en .
+
+id-amr:10037 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject having other treatments"@en .
+
+id-amr:10038 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject by age"@en .
+
+id-amr:10039 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "subject by sex"@en .
+
+id-amr:10040 a skos:Concept;
+  skos:altLabel "pathogen"@en;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "infectious agent"@en .
+
+id-amr:10041 a skos:Concept;
+  skos:broader covid19:10037;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "infectious agent having antimicrobial resistance"@en .
+
+id-amr:10042 a skos:Concept;
+  skos:broader id-amr:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "soil"@en .
+
+id-amr:10043 a skos:Concept;
+  skos:broader id-amr:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "soil-waste"@en .
+
+id-amr:10044 a skos:Concept;
+  skos:broader id-amr:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "wastewater"@en .
+
+id-amr:10045 a skos:Concept;
+  skos:broader id-amr:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "water"@en .
+
+id-amr:10046 a skos:Concept;
+  skos:broader id-amr:10017;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "air"@en .
+
+id-amr:10047 a skos:Concept;
+  skos:broader id-amr:10016;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10048, id-amr:10049, id-amr:10050, id-amr:10051, id-amr:10052,
+    id-amr:10053, id-amr:10054, id-amr:10055, id-amr:10056, id-amr:10057, id-amr:10058,
+    id-amr:10059, id-amr:10060;
+  skos:prefLabel "livestock"@en .
+
+id-amr:10048 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "diary cattle"@en .
+
+id-amr:10049 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "veal calve"@en .
+
+id-amr:10050 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "beef cattle"@en .
+
+id-amr:10051 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "buffalo"@en .
+
+id-amr:10052 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "sheep (wool)"@en .
+
+id-amr:10053 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "sheep (milk)"@en .
+
+id-amr:10054 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "goat (meat)"@en .
+
+id-amr:10055 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "goat (milk)"@en .
+
+id-amr:10056 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "horse"@en .
+
+id-amr:10057 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "pig"@en .
+
+id-amr:10058 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "broiler"@en .
+
+id-amr:10059 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "layer"@en .
+
+id-amr:10060 a skos:Concept;
+  skos:broader id-amr:10047;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "poultry"@en .
+
+id-amr:10061 a skos:Concept;
+  skos:broader id-amr:10016;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "insect"@en .
+
+id-amr:10062 a skos:Concept;
+  skos:broader id-amr:10016;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "wildlife"@en .
+
+id-amr:10063 a skos:Concept;
+  skos:broader id-amr:10016;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "companion animal"@en .
+
+id-amr:10065 a skos:Concept;
+  skos:broader id-amr:10019;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "fungus"@en .
+
+id-amr:10066 a skos:Concept;
+  skos:broadMatch covid19:10145;
+  skos:broader id-amr:10016;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "fish (aquaculture)"@en .
+
+covid19:10107 a skos:Concept;
+  skos:broadMatch covid19:10169;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower covid19:10112, covid19:10114, covid19:10122, covid19:10125, covid19:10127,
+    covid19:10132, covid19:10244, id-amr:10068, id-amr:10069, id-amr:10070, id-amr:10071,
+    id-amr:10072, id-amr:10073, id-amr:10074;
+  skos:prefLabel "data"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10068 a skos:Concept;
+  skos:broadMatch covid19:10169;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "epidemiological data"@en .
+
+id-amr:10069 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "diagnostics usage data"@en .
+
+id-amr:10070 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "complete medical records"@en .
+
+id-amr:10071 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "imaging data"@en .
+
+id-amr:10072 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "data with respect to resistance"@en .
+
+id-amr:10073 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "health status data"@en .
+
+id-amr:10074 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "taxonomical data"@en .
+
+covid19:10125 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "survey data"@en .
+
+covid19:10122 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "economic data"@en .
+
+covid19:10114 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "treatment data"@en .
+
+covid19:10127 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "environmental data"@en .
+
+covid19:10244 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "genomics data"@en .
+
+covid19:10112 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "physiological data"@en .
+
+covid19:10132 a skos:Concept;
+  skos:broader covid19:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "audiovisual data"@en .
+
+covid19:10145 skos:narrower id-amr:10015, id-amr:10016, id-amr:10019 .
