@@ -26,8 +26,8 @@
   pav:createdOn "2021-02-08T10:36:00+00:00"@en;
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
-  skos:hasTopConcept covid19:10017, covid19:10107, covid19:10225, id-amr:10000, id-amr:10014,
-    id-amr:10027;
+  skos:hasTopConcept covid19:10017, covid19:10107, covid19:10145, covid19:10169, covid19:10225,
+    id-amr:10000, id-amr:10014, id-amr:10027;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -384,13 +384,11 @@ id-amr:10065 a skos:Concept;
   skos:prefLabel "fungus"@en .
 
 id-amr:10066 a skos:Concept;
-  skos:broadMatch covid19:10145;
   skos:broader id-amr:10016;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "fish (aquaculture)"@en .
 
 covid19:10107 a skos:Concept;
-  skos:broadMatch covid19:10169;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower covid19:10112, covid19:10114, covid19:10122, covid19:10125, covid19:10127,
     covid19:10132, covid19:10244, id-amr:10068, id-amr:10069, id-amr:10070, id-amr:10071,
@@ -399,7 +397,6 @@ covid19:10107 a skos:Concept;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10068 a skos:Concept;
-  skos:broadMatch covid19:10169;
   skos:broader covid19:10107;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "epidemiological data"@en .
@@ -469,4 +466,11 @@ covid19:10132 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "audiovisual data"@en .
 
-covid19:10145 skos:narrower id-amr:10015, id-amr:10016, id-amr:10019 .
+covid19:10145 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10015, id-amr:10016, id-amr:10019;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+covid19:10169 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .

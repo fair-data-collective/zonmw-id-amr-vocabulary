@@ -89,9 +89,9 @@ id-amr:10061,insect,,,id-amr:10016
 id-amr:10062,wildlife,,,id-amr:10016
 id-amr:10063,companion animal,,,id-amr:10016
 id-amr:10065,fungus,,,id-amr:10019
-id-amr:10066,fish (aquaculture),,,id-amr:10016,,,covid19:10145
-covid19:10107,data,,,,,,covid19:10169
-id-amr:10068,epidemiological data,,,covid19:10107,,,covid19:10169
+id-amr:10066,fish (aquaculture),,,id-amr:10016
+covid19:10107,data
+id-amr:10068,epidemiological data,,,covid19:10107
 id-amr:10069,diagnostics usage data,,,covid19:10107
 id-amr:10070,complete medical records ,,,covid19:10107
 id-amr:10071,imaging data,,,covid19:10107
@@ -105,3 +105,5 @@ covid19:10127,environmental data,,,covid19:10107
 covid19:10244,genomics data,,,covid19:10107
 covid19:10112,physiological data,,,covid19:10107
 covid19:10132,audiovisual data,,,covid19:10107
+covid19:10145
+covid19:10169
