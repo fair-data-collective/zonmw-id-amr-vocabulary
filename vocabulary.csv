@@ -115,3 +115,4 @@ gen:10011,macromolecule,,,,gen:10007
 id-amr:10085,protein,,,,gen:10011
 id-amr:10086,antibody,,,,gen:10011
 covid19:10152,parasite,,"Any organism that has a close, symbiotic relationship with a separate, host organism.",https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28176,gen:10024,http://purl.obolibrary.org/obo/NCIT_C28176
+gen:10025,animal,,,,gen:10008
