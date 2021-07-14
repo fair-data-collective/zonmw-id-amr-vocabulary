@@ -28,7 +28,7 @@
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
-    id-amr:10000, id-amr:10084;
+    gen:10025, id-amr:10000, id-amr:10017, id-amr:10026, id-amr:10084;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -113,45 +113,43 @@ id-amr:10013 a skos:Concept;
 id-amr:10014 a skos:Concept;
   skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10019, id-amr:10020;
-  skos:prefLabel "One Health domain"@en .
+  skos:prefLabel "One Health"@en .
 
 id-amr:10015 a skos:Concept;
   skos:broader gen:10008;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "human"@en .
+  skos:prefLabel "human health"@en .
 
 id-amr:10016 a skos:Concept;
   skos:broader gen:10008, id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10047, id-amr:10061, id-amr:10062, id-amr:10063, id-amr:10066;
-  skos:prefLabel "animal"@en .
+  skos:prefLabel "animal health"@en .
 
 id-amr:10017 a skos:Concept;
-  skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "environment"@en .
+  skos:prefLabel "environment"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10018 a skos:Concept;
   skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "plant"@en .
+  skos:prefLabel "plant health"@en .
 
-id-amr:10019 a skos:Concept;
-  skos:broader gen:10008, id-amr:10014;
+gen:10024 a skos:Concept;
+  skos:broader gen:10008;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10065;
+  skos:narrower covid19:10150, covid19:10151, id-amr:10065;
   skos:prefLabel "microorganism"@en .
 
-id-amr:10020 a skos:Concept;
-  skos:broader id-amr:10014;
+gen:10025 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "disease"@en .
+  skos:prefLabel "disease"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 gen:10003 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower covid19:10037, id-amr:10021, id-amr:10022, id-amr:10023, id-amr:10024,
-    id-amr:10025, id-amr:10042, id-amr:10043, id-amr:10044, id-amr:10045, id-amr:10046;
+    id-amr:10025;
   skos:prefLabel "temporal scope"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -265,32 +263,32 @@ id-amr:10041 a skos:Concept;
   skos:prefLabel "infectious agent having antimicrobial resistance"@en .
 
 id-amr:10042 a skos:Concept;
-  skos:broader gen:10003;
+  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "soil"@en .
 
 id-amr:10043 a skos:Concept;
-  skos:broader gen:10003;
+  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "soil-waste"@en .
 
 id-amr:10044 a skos:Concept;
-  skos:broader gen:10003;
+  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "wastewater"@en .
 
 id-amr:10045 a skos:Concept;
-  skos:broader gen:10003;
+  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "water"@en .
 
 id-amr:10046 a skos:Concept;
-  skos:broader gen:10003;
+  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "air"@en .
 
 id-amr:10047 a skos:Concept;
-  skos:broader id-amr:10016;
+  skos:broader id-amr:10026;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10048, id-amr:10049, id-amr:10050, id-amr:10051, id-amr:10052,
     id-amr:10053, id-amr:10054, id-amr:10055, id-amr:10056, id-amr:10057, id-amr:10058,
@@ -363,27 +361,27 @@ id-amr:10060 a skos:Concept;
   skos:prefLabel "poultry"@en .
 
 id-amr:10061 a skos:Concept;
-  skos:broader id-amr:10016;
+  skos:broader id-amr:10026;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "insect"@en .
 
 id-amr:10062 a skos:Concept;
-  skos:broader id-amr:10016;
+  skos:broader id-amr:10026;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "wildlife"@en .
 
 id-amr:10063 a skos:Concept;
-  skos:broader id-amr:10016;
+  skos:broader id-amr:10026;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "companion animal"@en .
 
 id-amr:10065 a skos:Concept;
-  skos:broader id-amr:10019;
+  skos:broader gen:10024;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "fungus"@en .
 
 id-amr:10066 a skos:Concept;
-  skos:broader id-amr:10016;
+  skos:broader id-amr:10026;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "fish (aquaculture)"@en .
 
@@ -467,7 +465,7 @@ covid19:10132 a skos:Concept;
 
 gen:10008 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10015, id-amr:10016, id-amr:10019;
+  skos:narrower gen:10024, id-amr:10015, id-amr:10016;
   skos:prefLabel "organism"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -478,6 +476,49 @@ gen:10009 a skos:Concept;
 
 id-amr:10084 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10014, id-amr:10016, id-amr:10017, id-amr:10018;
+  skos:narrower id-amr:10014, id-amr:10016, id-amr:10018;
   skos:prefLabel "health domain"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10026 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10047, id-amr:10061, id-amr:10062, id-amr:10063, id-amr:10066;
+  skos:prefLabel "animal"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+covid19:10151 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14187>;
+  skos:broader gen:10024;
+  skos:definition "Unicellular, prokaryotic organisms that reproduce by cell division and usually have cell walls; can be shaped like spheres, rods or spirals and can be found in virtually any environment."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14187>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "bacteria"@en .
+
+covid19:10150 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14283>;
+  skos:broader gen:10024;
+  skos:definition "An infectious agent which consists of two parts, genetic material and a protein coat. These organisms lack independent metabolism, and they must infect the cells of other types of organisms to reproduce. Most viruses are capable of passing through fine filters that retain bacteria, and are not visible through a light microscope."@en;
+  skos:exactMatch <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14283>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "virus"@en .
+
+gen:10011 a skos:Concept;
+  skos:broader gen:10007;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10085, id-amr:10086;
+  skos:prefLabel "macromolecule"@en .
+
+id-amr:10085 a skos:Concept;
+  skos:broader gen:10011;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "protein"@en .
+
+id-amr:10086 a skos:Concept;
+  skos:broader gen:10011;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "antibody"@en .
+
+<http://purl.org/zonmw/id-amr/\u002010017> skos:narrower id-amr:10042, id-amr:10043,
+    id-amr:10044, id-amr:10045, id-amr:10046 .
+
+gen:10007 skos:narrower gen:10011 .
