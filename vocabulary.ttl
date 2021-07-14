@@ -28,7 +28,7 @@
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
-    gen:10025, id-amr:10000, id-amr:10017, id-amr:10026, id-amr:10084;
+    gen:10025, id-amr:10000, id-amr:10017, id-amr:10084;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -139,11 +139,12 @@ id-amr:10018 a skos:Concept;
 gen:10024 a skos:Concept;
   skos:broader gen:10008;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower covid19:10150, covid19:10151, id-amr:10065;
+  skos:narrower covid19:10150, covid19:10151, covid19:10152, id-amr:10065;
   skos:prefLabel "microorganism"@en .
 
 gen:10025 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10047, id-amr:10061, id-amr:10062, id-amr:10063, id-amr:10066;
   skos:prefLabel "disease"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -289,7 +290,7 @@ id-amr:10046 a skos:Concept;
   skos:prefLabel "air"@en .
 
 id-amr:10047 a skos:Concept;
-  skos:broader id-amr:10026;
+  skos:broader gen:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10048, id-amr:10049, id-amr:10050, id-amr:10051, id-amr:10052,
     id-amr:10053, id-amr:10054, id-amr:10055, id-amr:10056, id-amr:10057, id-amr:10058,
@@ -362,17 +363,17 @@ id-amr:10060 a skos:Concept;
   skos:prefLabel "poultry"@en .
 
 id-amr:10061 a skos:Concept;
-  skos:broader id-amr:10026;
+  skos:broader gen:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "insect"@en .
 
 id-amr:10062 a skos:Concept;
-  skos:broader id-amr:10026;
+  skos:broader gen:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "wildlife"@en .
 
 id-amr:10063 a skos:Concept;
-  skos:broader id-amr:10026;
+  skos:broader gen:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "companion animal"@en .
 
@@ -382,7 +383,7 @@ id-amr:10065 a skos:Concept;
   skos:prefLabel "fungus"@en .
 
 id-amr:10066 a skos:Concept;
-  skos:broader id-amr:10026;
+  skos:broader gen:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "fish (aquaculture)"@en .
 
@@ -481,12 +482,6 @@ id-amr:10084 a skos:Concept;
   skos:prefLabel "health domain"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
-id-amr:10026 a skos:Concept;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10047, id-amr:10061, id-amr:10062, id-amr:10063, id-amr:10066;
-  skos:prefLabel "animal"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
-
 covid19:10151 a skos:Concept;
   dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C14187>;
   skos:broader gen:10024;
@@ -518,5 +513,13 @@ id-amr:10086 a skos:Concept;
   skos:broader gen:10011;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "antibody"@en .
+
+covid19:10152 a skos:Concept;
+  dct:source <https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28176>;
+  skos:broader gen:10024;
+  skos:definition "Any organism that has a close, symbiotic relationship with a separate, host organism."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/NCIT_C28176>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "parasite"@en .
 
 gen:10007 skos:narrower gen:10011 .
