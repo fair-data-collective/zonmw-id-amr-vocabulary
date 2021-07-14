@@ -116,17 +116,18 @@ id-amr:10014 a skos:Concept;
   skos:prefLabel "One Health"@en .
 
 id-amr:10015 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "human health"@en .
 
 id-amr:10016 a skos:Concept;
-  skos:broader gen:10008, id-amr:10084;
+  skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "animal health"@en .
 
 id-amr:10017 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10042, id-amr:10043, id-amr:10044, id-amr:10045, id-amr:10046;
   skos:prefLabel "environment"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -263,27 +264,27 @@ id-amr:10041 a skos:Concept;
   skos:prefLabel "infectious agent having antimicrobial resistance"@en .
 
 id-amr:10042 a skos:Concept;
-  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
+  skos:broader id-amr:10017;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "soil"@en .
 
 id-amr:10043 a skos:Concept;
-  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
+  skos:broader id-amr:10017;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "soil-waste"@en .
 
 id-amr:10044 a skos:Concept;
-  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
+  skos:broader id-amr:10017;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "wastewater"@en .
 
 id-amr:10045 a skos:Concept;
-  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
+  skos:broader id-amr:10017;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "water"@en .
 
 id-amr:10046 a skos:Concept;
-  skos:broader <http://purl.org/zonmw/id-amr/\u002010017>;
+  skos:broader id-amr:10017;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "air"@en .
 
@@ -465,7 +466,7 @@ covid19:10132 a skos:Concept;
 
 gen:10008 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower gen:10024, id-amr:10015, id-amr:10016;
+  skos:narrower gen:10024;
   skos:prefLabel "organism"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -476,7 +477,7 @@ gen:10009 a skos:Concept;
 
 id-amr:10084 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10014, id-amr:10016, id-amr:10018;
+  skos:narrower id-amr:10014, id-amr:10015, id-amr:10016, id-amr:10018;
   skos:prefLabel "health domain"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -517,8 +518,5 @@ id-amr:10086 a skos:Concept;
   skos:broader gen:10011;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "antibody"@en .
-
-<http://purl.org/zonmw/id-amr/\u002010017> skos:narrower id-amr:10042, id-amr:10043,
-    id-amr:10044, id-amr:10045, id-amr:10046 .
 
 gen:10007 skos:narrower gen:10011 .

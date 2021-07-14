@@ -39,8 +39,8 @@ id-amr:10011,foodborne disease,,,,gen:10001
 id-amr:10012,microbiome,,,,gen:10001
 id-amr:10013,other focus area,,,,gen:10001
 id-amr:10014,One Health ,,,,id-amr:10084
-id-amr:10015,human health,,,,gen:10008
-id-amr:10016,animal health,,,,"id-amr:10084, gen:10008"
+id-amr:10015,human health,,,,id-amr:10084
+id-amr:10016,animal health,,,,id-amr:10084
 id-amr:10017,environment
 id-amr:10018,plant health,,,,id-amr:10084
 gen:10024,microorganism,,,,gen:10008
@@ -67,11 +67,11 @@ id-amr:10038,subject by age,,,,gen:10004
 id-amr:10039,subject by sex,,,,gen:10004
 id-amr:10040,infectious agent,pathogen,,,gen:10004
 id-amr:10041,infectious agent having antimicrobial resistance,,,,gen:10004
-id-amr:10042,soil,,,,id-amr: 10017
-id-amr:10043,soil-waste,,,,id-amr: 10017
-id-amr:10044,wastewater,,,,id-amr: 10017
-id-amr:10045,water,,,,id-amr: 10017
-id-amr:10046,air,,,,id-amr: 10017
+id-amr:10042,soil,,,,id-amr:10017
+id-amr:10043,soil-waste,,,,id-amr:10017
+id-amr:10044,wastewater,,,,id-amr:10017
+id-amr:10045,water,,,,id-amr:10017
+id-amr:10046,air,,,,id-amr:10017
 id-amr:10047,livestock,,,,id-amr:10026
 id-amr:10048,diary cattle,,,,id-amr:10047
 id-amr:10049,veal calve,,,,id-amr:10047
