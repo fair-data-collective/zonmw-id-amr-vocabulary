@@ -41,7 +41,7 @@ gen:10001 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower covid19:10232, id-amr:10001, id-amr:10002, id-amr:10004, id-amr:10005,
     id-amr:10006, id-amr:10007, id-amr:10008, id-amr:10009, id-amr:10010, id-amr:10011,
-    id-amr:10012, id-amr:10013;
+    id-amr:10012, id-amr:10013, id-amr:10087;
   skos:prefLabel "focus area"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -73,32 +73,32 @@ id-amr:10005 a skos:Concept;
 id-amr:10006 a skos:Concept;
   skos:broader gen:10001;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "appropriate use antimicrobials"@en .
+  skos:prefLabel "preparedness and response"@en .
 
 id-amr:10007 a skos:Concept;
   skos:broader gen:10001;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "stewardship"@en .
+  skos:prefLabel "infection prevention"@en .
 
 id-amr:10008 a skos:Concept;
   skos:broader gen:10001;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "zoonotic disease"@en .
+  skos:prefLabel "stewardship"@en .
 
 id-amr:10009 a skos:Concept;
   skos:broader gen:10001;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "non-foodborne zoonotic disease"@en .
+  skos:prefLabel "zoonotic disease"@en .
 
 id-amr:10010 a skos:Concept;
   skos:broader gen:10001;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "non-foodborne disease"@en .
+  skos:prefLabel "vector-borne disease"@en .
 
 id-amr:10011 a skos:Concept;
   skos:broader gen:10001;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "foodborne disease"@en .
+  skos:prefLabel "prion disease"@en .
 
 id-amr:10012 a skos:Concept;
   skos:broader gen:10001;
@@ -108,7 +108,7 @@ id-amr:10012 a skos:Concept;
 id-amr:10013 a skos:Concept;
   skos:broader gen:10001;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "other focus area"@en .
+  skos:prefLabel "prudent use"@en .
 
 id-amr:10014 a skos:Concept;
   skos:broader id-amr:10084;
@@ -134,7 +134,7 @@ id-amr:10017 a skos:Concept;
 id-amr:10018 a skos:Concept;
   skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "plant health"@en .
+  skos:prefLabel "environmental health"@en .
 
 gen:10024 a skos:Concept;
   skos:broader gen:10008;
@@ -521,5 +521,10 @@ covid19:10152 a skos:Concept;
   skos:exactMatch <http://purl.obolibrary.org/obo/NCIT_C28176>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "parasite"@en .
+
+id-amr:10087 a skos:Concept;
+  skos:broader gen:10001;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "outbreak"@en .
 
 gen:10007 skos:narrower gen:10011 .

@@ -30,19 +30,19 @@ id-amr:10002,surveillance,,,,gen:10001
 covid19:10232,diagnostics,,,,gen:10001
 id-amr:10004,transmission,,,,gen:10001
 id-amr:10005,intervention,,,,gen:10001
-id-amr:10006,appropriate use antimicrobials,,,,gen:10001
-id-amr:10007,stewardship,,,,gen:10001
-id-amr:10008,zoonotic disease,,,,gen:10001
-id-amr:10009,non-foodborne zoonotic disease,,,,gen:10001
-id-amr:10010,non-foodborne disease,,,,gen:10001
-id-amr:10011,foodborne disease,,,,gen:10001
+id-amr:10006,preparedness and response,,,,gen:10001
+id-amr:10007,infection prevention,,,,gen:10001
+id-amr:10008,stewardship,,,,gen:10001
+id-amr:10009, zoonotic disease,,,,gen:10001
+id-amr:10010,vector-borne disease,,,,gen:10001
+id-amr:10011,prion disease,,,,gen:10001
 id-amr:10012,microbiome,,,,gen:10001
-id-amr:10013,other focus area,,,,gen:10001
+id-amr:10013,prudent use,,,,gen:10001
 id-amr:10014,One Health ,,,,id-amr:10084
 id-amr:10015,human health,,,,id-amr:10084
 id-amr:10016,animal health,,,,id-amr:10084
 id-amr:10017,environment
-id-amr:10018,plant health,,,,id-amr:10084
+id-amr:10018,environmental health,,,,id-amr:10084
 gen:10024,microorganism,,,,gen:10008
 gen:10025,disease
 gen:10003,temporal scope
@@ -116,3 +116,4 @@ id-amr:10085,protein,,,,gen:10011
 id-amr:10086,antibody,,,,gen:10011
 covid19:10152,parasite,,"Any organism that has a close, symbiotic relationship with a separate, host organism.",https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28176,gen:10024,http://purl.obolibrary.org/obo/NCIT_C28176
 gen:10025,animal,,,,gen:10008
+id-amr:10087,outbreak,,,,gen:10001
