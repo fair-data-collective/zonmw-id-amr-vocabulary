@@ -28,7 +28,7 @@
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
-    id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155, id-amr:10162;
+    gen:10098, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155, id-amr:10162;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -466,11 +466,10 @@ covid19:10132 a skos:Concept;
   skos:prefLabel "audiovisual data"@en .
 
 gen:10008 a skos:Concept;
-  skos:exactMatch <http://purl.bioontology.org/ontology/STY/T002>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower gen:10024, gen:10025, id-amr:10100, id-amr:10101, id-amr:10102, id-amr:10103,
-    id-amr:10104, id-amr:10105, id-amr:10106;
-  skos:prefLabel "organism"@en, "plant"@en;
+  skos:narrower gen:10024, gen:10025, id-amr:10102, id-amr:10103, id-amr:10104, id-amr:10105,
+    id-amr:10106;
+  skos:prefLabel "organism"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 gen:10009 a skos:Concept;
@@ -604,14 +603,21 @@ id-amr:10099 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "body fluid sample"@en .
 
+gen:10098 a skos:Concept;
+  skos:exactMatch <http://purl.bioontology.org/ontology/STY/T002>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10100, id-amr:10101;
+  skos:prefLabel "plant"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
 id-amr:10100 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader gen:10098;
   skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/72511004>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "fruit"@en .
 
 id-amr:10101 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader gen:10098;
   skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/22836000>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "vegetable"@en .
@@ -911,7 +917,7 @@ id-amr:10154 a skos:Concept;
 id-amr:10155 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10156, id-amr:10157, id-amr:10158, id-amr:10159, id-amr:10160,
-    id-amr:10161;
+    id-amr:10161, id-amr:10188;
   skos:prefLabel "isolation source"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -1081,6 +1087,11 @@ id-amr:10187 a skos:Concept;
   skos:broader id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "integrity of nucleic acids"@en .
+
+id-amr:10188 a skos:Concept;
+  skos:broader id-amr:10155;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "food specimen"@en .
 
 gen:10007 skos:narrower gen:10011 .
 

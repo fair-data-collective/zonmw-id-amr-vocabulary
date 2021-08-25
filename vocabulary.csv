@@ -129,9 +129,9 @@ id-amr:10096,stool specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SN
 id-amr:10097,synovial fluid specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/119332005
 id-amr:10098,urine specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/122575003
 id-amr:10099,body fluid sample,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/309051001
-gen:10008,plant,,,,,http://purl.bioontology.org/ontology/STY/T002
-id-amr:10100,fruit,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/72511004
-id-amr:10101,vegetable,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/22836000
+gen:10098,plant,,,,,http://purl.bioontology.org/ontology/STY/T002
+id-amr:10100,fruit,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/72511004
+id-amr:10101,vegetable,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/22836000
 id-amr:10102,crop,,,,gen:10008,http://purl.obolibrary.org/obo/AGRO_00000325
 id-amr:10103,cereal,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/23182003
 id-amr:10104,oil seed,,,,gen:10008
@@ -217,3 +217,4 @@ id-amr:10184,every 2 years,,,,id-amr:10182
 id-amr:10185,every 5 years,,,,id-amr:10182
 id-amr:10186,less frequently,,,,id-amr:10182
 id-amr:10187,integrity of nucleic acids,,,,id-amr:10162
+id-amr:10188,food specimen,,,,id-amr:10155
