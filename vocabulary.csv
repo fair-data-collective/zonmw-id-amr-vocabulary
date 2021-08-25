@@ -117,3 +117,78 @@ id-amr:10086,antibody,,,,gen:10011
 covid19:10152,parasite,,"Any organism that has a close, symbiotic relationship with a separate, host organism.",https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C28176,gen:10024,http://purl.obolibrary.org/obo/NCIT_C28176
 gen:10025,animal,,,,gen:10008
 id-amr:10087,outbreak,,,,gen:10001
+id-amr:10088,biopsy sample,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/258415003
+id-amr:10089,blood specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/119297000
+id-amr:10090,bronchoalveolar lavage fluid sample,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/258607008
+id-amr:10091,cerebrospinal fluid sample,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/258450006
+id-amr:10092,respiratory sample,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/258603007
+id-amr:10093,skin swab,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/258503004
+id-amr:10094,specimen from geinital system,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/119344008
+id-amr:10095,specimen of unknown material,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/119324002
+id-amr:10096,stool specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/119339001
+id-amr:10097,synovial fluid specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/119332005
+id-amr:10098,urine specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/122575003
+id-amr:10099,body fluid sample,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/309051001
+gen:10008,plant,,,,,http://purl.bioontology.org/ontology/STY/T002
+id-amr:10100,fruit,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/72511004
+id-amr:10101,vegetable,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/22836000
+id-amr:10102,crop,,,,gen:10008,http://purl.obolibrary.org/obo/AGRO_00000325
+id-amr:10103,cereal,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/23182003
+id-amr:10104,oil seed,,,,gen:10008
+id-amr:10105,pulse - bean,,,,gen:10008,http://purl.jp/bio/4/id/200906074151720668
+id-amr:10106,tree nut,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/442571000124108
+id-amr:10107,detailed type of specimen
+id-amr:10108,amniotic fluid,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/77012006
+id-amr:10109,ascites fluid,,,,id-amr:10107
+id-amr:10110,blood (whole),,,,"covid19:10154, id-amr:10107",http://purl.bioontology.org/ontology/SNOMEDCT/420135007
+id-amr:10111,bone,,,,id-amr:10107,http://purl.bioontology.org/ontology/LNC/LA4277-5
+id-amr:10112,bone marrow aspirate,,,,id-amr:10107
+id-amr:10113,breast milk,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/226789007
+id-amr:10114,bronchoalveolar lavage,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/782971002
+id-amr:10115,buccal cells,,,,id-amr:10107
+id-amr:10116,cells from fine needle aspirate,,,,id-amr:10107
+id-amr:10117,cells from laser capture microdissected tissue,,,,id-amr:10107
+id-amr:10118,"cells from non blood specimen type (e.g. ascites, amniotic), non-viable",,,,id-amr:10107
+id-amr:10119,"cells from non blood specimen type(e.g. ascites, amniotic), viable",,,,id-amr:10107
+id-amr:10120,"cells from non-blood specimen type (e.g. dissociated tissue), non-viable",,,,id-amr:10107
+id-amr:10121,"cells from non-blood specimen type (e.g. dissociated tissue), viable",,,,id-amr:10107
+id-amr:10122,cerebrospinal fluid,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/65216001
+id-amr:10123,cord blood,,,,"covid19:10154, id-amr:10107",http://purl.bioontology.org/ontology/SNOMEDCT/12499000
+id-amr:10124,"density-gradient-centrifugation-separated mononuclear cells, non viable",,,,id-amr:10107
+id-amr:10125,"density-gradient-centrifugation-separated mononuclear cells, viable",,,,id-amr:10107
+id-amr:10126,dental pulp,,,,id-amr:10107
+id-amr:10127,"disrupted tissue, non-viable",,,,id-amr:10107
+id-amr:10128,dried whole blood (e.g. guthrie cards),,,,"covid19:10154, id-amr:10107"
+id-amr:10129,enriched (physicochemically) circulating tumor cells,,,,id-amr:10107
+id-amr:10130,fresh cells from non-blood specimen type,,,,id-amr:10107
+id-amr:10131,fresh cells from non-blood specimen type (e.g. biopsy),,,,id-amr:10107
+id-amr:10132,hair,,,,id-amr:10107
+id-amr:10133,nails,,,,id-amr:10107
+id-amr:10134,nasal washing,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/433871000124101
+id-amr:10135,"non-density-gradient-centrifugation-separated buffy coat, non-viable",,,,id-amr:10107
+id-amr:10136,"non-density-gradient-centrifugation-separated buffy coat, viable",,,,id-amr:10107
+id-amr:10137,placenta,,,,id-amr:10107
+id-amr:10138,"plasma, double spun",,,,"covid19:10157, id-amr:10107"
+id-amr:10139,"plasma, single spun",,,,"covid19:10157, id-amr:10107"
+id-amr:10140,pleural fluid,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/2778004
+id-amr:10141,red blood cells,,,,id-amr:10107
+id-amr:10142,saliva,,,,"covid19:10158, id-amr:10107",http://purl.bioontology.org/ontology/SNOMEDCT/256897009
+id-amr:10143,semen,,,,"covid19:10159, id-amr:10107"
+id-amr:10144,serum,,,,"covid19:10160, id-amr:10107",http://purl.bioontology.org/ontology/SNOMEDCT/67922002
+id-amr:10145,solid tissue,,,,id-amr:10107
+id-amr:10146,sputum,,,,"covid19:10162, id-amr:10107",http://purl.bioontology.org/ontology/SNOMEDCT/45710003
+id-amr:10147,stool,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/706697005
+id-amr:10148,synovial fluid,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/6085005
+id-amr:10149,tears,,,,"covid19:10163, id-amr:10107",http://purl.bioontology.org/ontology/SNOMEDCT/40431001
+id-amr:10150,teeth,,,,id-amr:10107
+id-amr:10151,"urine, 24 h ",,,,"covid19:10165, id-amr:10107"
+id-amr:10152,"urine, first morning",,,,"covid19:10165, id-amr:10107"
+id-amr:10153,"urine, random",,,,"covid19:10165, id-amr:10107"
+id-amr:10154,"urine, timed",,,,"covid19:10165, id-amr:10107"
+id-amr:10155,isolation source
+id-amr:10156,human material,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/256645000
+id-amr:10157,animal material,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/256363008
+id-amr:10158,specimen from environment,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/440229008
+id-amr:10159,plant specimen,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/119301009
+id-amr:10160,solution,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/8537005
+id-amr:10161,biomedical device,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/63653004

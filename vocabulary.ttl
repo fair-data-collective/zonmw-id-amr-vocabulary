@@ -28,7 +28,7 @@
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
-    id-amr:10000, id-amr:10017, id-amr:10084;
+    id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -466,13 +466,18 @@ covid19:10132 a skos:Concept;
   skos:prefLabel "audiovisual data"@en .
 
 gen:10008 a skos:Concept;
+  skos:exactMatch <http://purl.bioontology.org/ontology/STY/T002>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower gen:10024, gen:10025;
-  skos:prefLabel "organism"@en;
+  skos:narrower gen:10024, gen:10025, id-amr:10100, id-amr:10101, id-amr:10102, id-amr:10103,
+    id-amr:10104, id-amr:10105, id-amr:10106;
+  skos:prefLabel "organism"@en, "plant"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 gen:10009 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10088, id-amr:10089, id-amr:10090, id-amr:10091, id-amr:10092,
+    id-amr:10093, id-amr:10094, id-amr:10095, id-amr:10096, id-amr:10097, id-amr:10098,
+    id-amr:10099;
   skos:prefLabel "specimen"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -527,4 +532,439 @@ id-amr:10087 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "outbreak"@en .
 
+id-amr:10088 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/258415003>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "biopsy sample"@en .
+
+id-amr:10089 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/119297000>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "blood specimen"@en .
+
+id-amr:10090 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/258607008>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "bronchoalveolar lavage fluid sample"@en .
+
+id-amr:10091 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/258450006>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cerebrospinal fluid sample"@en .
+
+id-amr:10092 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/258603007>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "respiratory sample"@en .
+
+id-amr:10093 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/258503004>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "skin swab"@en .
+
+id-amr:10094 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/119344008>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "specimen from geinital system"@en .
+
+id-amr:10095 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/119324002>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "specimen of unknown material"@en .
+
+id-amr:10096 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/119339001>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "stool specimen"@en .
+
+id-amr:10097 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/119332005>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "synovial fluid specimen"@en .
+
+id-amr:10098 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/122575003>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "urine specimen"@en .
+
+id-amr:10099 a skos:Concept;
+  skos:broader gen:10009;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/309051001>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "body fluid sample"@en .
+
+id-amr:10100 a skos:Concept;
+  skos:broader gen:10008;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/72511004>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "fruit"@en .
+
+id-amr:10101 a skos:Concept;
+  skos:broader gen:10008;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/22836000>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "vegetable"@en .
+
+id-amr:10102 a skos:Concept;
+  skos:broader gen:10008;
+  skos:exactMatch <http://purl.obolibrary.org/obo/AGRO_00000325>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "crop"@en .
+
+id-amr:10103 a skos:Concept;
+  skos:broader gen:10008;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/23182003>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cereal"@en .
+
+id-amr:10104 a skos:Concept;
+  skos:broader gen:10008;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "oil seed"@en .
+
+id-amr:10105 a skos:Concept;
+  skos:broader gen:10008;
+  skos:exactMatch <http://purl.jp/bio/4/id/200906074151720668>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "pulse - bean"@en .
+
+id-amr:10106 a skos:Concept;
+  skos:broader gen:10008;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/442571000124108>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "tree nut"@en .
+
+id-amr:10107 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10108, id-amr:10109, id-amr:10110, id-amr:10111, id-amr:10112,
+    id-amr:10113, id-amr:10114, id-amr:10115, id-amr:10116, id-amr:10117, id-amr:10118,
+    id-amr:10119, id-amr:10120, id-amr:10121, id-amr:10122, id-amr:10123, id-amr:10124,
+    id-amr:10125, id-amr:10126, id-amr:10127, id-amr:10128, id-amr:10129, id-amr:10130,
+    id-amr:10131, id-amr:10132, id-amr:10133, id-amr:10134, id-amr:10135, id-amr:10136,
+    id-amr:10137, id-amr:10138, id-amr:10139, id-amr:10140, id-amr:10141, id-amr:10142,
+    id-amr:10143, id-amr:10144, id-amr:10145, id-amr:10146, id-amr:10147, id-amr:10148,
+    id-amr:10149, id-amr:10150, id-amr:10151, id-amr:10152, id-amr:10153, id-amr:10154;
+  skos:prefLabel "detailed type of specimen"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10108 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/77012006>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "amniotic fluid"@en .
+
+id-amr:10109 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "ascites fluid"@en .
+
+id-amr:10110 a skos:Concept;
+  skos:broader covid19:10154, id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/420135007>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "blood (whole)"@en .
+
+id-amr:10111 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/LNC/LA4277-5>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "bone"@en .
+
+id-amr:10112 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "bone marrow aspirate"@en .
+
+id-amr:10113 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/226789007>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "breast milk"@en .
+
+id-amr:10114 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/782971002>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "bronchoalveolar lavage"@en .
+
+id-amr:10115 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "buccal cells"@en .
+
+id-amr:10116 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cells from fine needle aspirate"@en .
+
+id-amr:10117 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cells from laser capture microdissected tissue"@en .
+
+id-amr:10118 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cells from non blood specimen type (e.g. ascites, amniotic), non-viable"@en .
+
+id-amr:10119 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cells from non blood specimen type(e.g. ascites, amniotic), viable"@en .
+
+id-amr:10120 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cells from non-blood specimen type (e.g. dissociated tissue), non-viable"@en .
+
+id-amr:10121 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cells from non-blood specimen type (e.g. dissociated tissue), viable"@en .
+
+id-amr:10122 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/65216001>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cerebrospinal fluid"@en .
+
+id-amr:10123 a skos:Concept;
+  skos:broader covid19:10154, id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/12499000>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "cord blood"@en .
+
+id-amr:10124 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "density-gradient-centrifugation-separated mononuclear cells, non viable"@en .
+
+id-amr:10125 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "density-gradient-centrifugation-separated mononuclear cells, viable"@en .
+
+id-amr:10126 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "dental pulp"@en .
+
+id-amr:10127 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "disrupted tissue, non-viable"@en .
+
+id-amr:10128 a skos:Concept;
+  skos:broader covid19:10154, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "dried whole blood (e.g. guthrie cards)"@en .
+
+id-amr:10129 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "enriched (physicochemically) circulating tumor cells"@en .
+
+id-amr:10130 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "fresh cells from non-blood specimen type"@en .
+
+id-amr:10131 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "fresh cells from non-blood specimen type (e.g. biopsy)"@en .
+
+id-amr:10132 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "hair"@en .
+
+id-amr:10133 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "nails"@en .
+
+id-amr:10134 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/433871000124101>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "nasal washing"@en .
+
+id-amr:10135 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "non-density-gradient-centrifugation-separated buffy coat, non-viable"@en .
+
+id-amr:10136 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "non-density-gradient-centrifugation-separated buffy coat, viable"@en .
+
+id-amr:10137 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "placenta"@en .
+
+id-amr:10138 a skos:Concept;
+  skos:broader covid19:10157, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "plasma, double spun"@en .
+
+id-amr:10139 a skos:Concept;
+  skos:broader covid19:10157, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "plasma, single spun"@en .
+
+id-amr:10140 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/2778004>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "pleural fluid"@en .
+
+id-amr:10141 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "red blood cells"@en .
+
+id-amr:10142 a skos:Concept;
+  skos:broader covid19:10158, id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/256897009>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "saliva"@en .
+
+id-amr:10143 a skos:Concept;
+  skos:broader covid19:10159, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "semen"@en .
+
+id-amr:10144 a skos:Concept;
+  skos:broader covid19:10160, id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/67922002>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "serum"@en .
+
+id-amr:10145 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "solid tissue"@en .
+
+id-amr:10146 a skos:Concept;
+  skos:broader covid19:10162, id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/45710003>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "sputum"@en .
+
+id-amr:10147 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/706697005>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "stool"@en .
+
+id-amr:10148 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/6085005>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "synovial fluid"@en .
+
+id-amr:10149 a skos:Concept;
+  skos:broader covid19:10163, id-amr:10107;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/40431001>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "tears"@en .
+
+id-amr:10150 a skos:Concept;
+  skos:broader id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "teeth"@en .
+
+id-amr:10151 a skos:Concept;
+  skos:broader covid19:10165, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "urine, 24 h"@en .
+
+id-amr:10152 a skos:Concept;
+  skos:broader covid19:10165, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "urine, first morning"@en .
+
+id-amr:10153 a skos:Concept;
+  skos:broader covid19:10165, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "urine, random"@en .
+
+id-amr:10154 a skos:Concept;
+  skos:broader covid19:10165, id-amr:10107;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "urine, timed"@en .
+
+id-amr:10155 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10156, id-amr:10157, id-amr:10158, id-amr:10159, id-amr:10160,
+    id-amr:10161;
+  skos:prefLabel "isolation source"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10156 a skos:Concept;
+  skos:broader id-amr:10155;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/256645000>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "human material"@en .
+
+id-amr:10157 a skos:Concept;
+  skos:broader id-amr:10155;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/256363008>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "animal material"@en .
+
+id-amr:10158 a skos:Concept;
+  skos:broader id-amr:10155;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/440229008>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "specimen from environment"@en .
+
+id-amr:10159 a skos:Concept;
+  skos:broader id-amr:10155;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/119301009>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "plant specimen"@en .
+
+id-amr:10160 a skos:Concept;
+  skos:broader id-amr:10155;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/8537005>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "solution"@en .
+
+id-amr:10161 a skos:Concept;
+  skos:broader id-amr:10155;
+  skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/63653004>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "biomedical device"@en .
+
 gen:10007 skos:narrower gen:10011 .
+
+covid19:10154 skos:narrower id-amr:10110, id-amr:10123, id-amr:10128 .
+
+covid19:10157 skos:narrower id-amr:10138, id-amr:10139 .
+
+covid19:10158 skos:narrower id-amr:10142 .
+
+covid19:10159 skos:narrower id-amr:10143 .
+
+covid19:10160 skos:narrower id-amr:10144 .
+
+covid19:10162 skos:narrower id-amr:10146 .
+
+covid19:10163 skos:narrower id-amr:10149 .
+
+covid19:10165 skos:narrower id-amr:10151, id-amr:10152, id-amr:10153, id-amr:10154 .
