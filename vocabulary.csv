@@ -92,19 +92,19 @@ id-amr:10063,companion animal,,,,gen:10025
 id-amr:10065,fungus,,,,gen:10024
 id-amr:10066,fish (aquaculture),,,,gen:10025
 gen:10005,data
-id-amr:10068,epidemiological data,,,,gen:10005
-id-amr:10069,diagnostics usage data,,,,gen:10005
-id-amr:10070,complete medical records ,,,,gen:10005
-id-amr:10071,imaging data,,,,gen:10005
-id-amr:10072,data with respect to resistance,,,,gen:10005
-id-amr:10073,health status data,,,,gen:10005
+id-amr:10068,epidemiological data,,,,covid19:10108
+id-amr:10069,diagnostics usage data,,,,covid19:10108
+id-amr:10070,complete medical records ,,,,covid19:10108
+id-amr:10071,imaging data,,,,covid19:10132
+id-amr:10072,data with respect to resistance,,,,covid19:10108
+id-amr:10073,health status data,,,,covid19:10109
 id-amr:10074,taxonomical data,,,,gen:10005
 covid19:10125,survey data,,,,gen:10005
 covid19:10122,economic data,,,,gen:10005
-covid19:10114,treatment data,,,,gen:10005
+covid19:10114,treatment data,,,,covid19:10108
 covid19:10127,environmental data,,,,gen:10005
-covid19:10244,genomics data,,,,gen:10005
-covid19:10112,physiological data,,,,gen:10005
+covid19:10244,genomics data,,,,covid19:10108
+covid19:10112,physiological data,,,,covid19:10108
 covid19:10132,audiovisual data,,,,gen:10005
 gen:10008,organism
 gen:10009,specimen
@@ -193,7 +193,7 @@ id-amr:10159,plant specimen,,,,id-amr:10155,http://purl.bioontology.org/ontology
 id-amr:10160,solution,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/8537005
 id-amr:10161,biomedical device,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/63653004
 id-amr:10162,quality control information on biomaterials
-id-amr:10163,pre-analytical data,,,,id-amr:10162
+id-amr:10163,pre-analytical data,,,,"id-amr:10162, gen:10005"
 id-amr:10164,freeze thaw cycles,,,,id-amr:10162
 id-amr:10165,concentration of molecular or cellurlar derivatives,,,,id-amr:10162
 id-amr:10166,purity of nucleic acids,,,,id-amr:10162
@@ -218,3 +218,23 @@ id-amr:10185,every 5 years,,,,id-amr:10182
 id-amr:10186,less frequently,,,,id-amr:10182
 id-amr:10187,integrity of nucleic acids,,,,id-amr:10162
 id-amr:10188,food specimen,,,,id-amr:10155
+covid19:10109,health record data,,,,covid19:10108
+id-amr:10190,physiological - biochemical measurements,,,,covid19:10112
+id-amr:10191,sequencing - genotyping data,,,,covid19:10244
+id-amr:10192,clinical records,,,,covid19:10108
+id-amr:10193,follow-up records,,,,covid19:10108
+id-amr:10194,monitoring data ,,,,covid19:10108
+id-amr:10195,surveillance data,,,,covid19:10108
+id-amr:10196,patient ethnicity data,,,,covid19:10262
+id-amr:10197,quality data,,,,gen:10005
+id-amr:10198,experimental data ,,,,gen:10005
+id-amr:10199,biospecimen processing,,,,gen:10013
+id-amr:10200,data analysis,,,,gen:10013
+id-amr:10201,data integration,,,,gen:10013
+id-amr:10202,digital imaging,,,,gen:10013
+id-amr:10203,FAIRification service,,,,gen:10013
+id-amr:10204,providing reference materials,,,,gen:10013
+id-amr:10205,quality control,,,,gen:10013
+id-amr:10206,regulatory,,,,gen:10013
+id-amr:10207,training,,,,gen:10013
+id-amr:10208,communication,,,,gen:10013

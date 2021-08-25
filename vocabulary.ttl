@@ -389,39 +389,38 @@ id-amr:10066 a skos:Concept;
 
 gen:10005 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower covid19:10112, covid19:10114, covid19:10122, covid19:10125, covid19:10127,
-    covid19:10132, covid19:10244, id-amr:10068, id-amr:10069, id-amr:10070, id-amr:10071,
-    id-amr:10072, id-amr:10073, id-amr:10074;
+  skos:narrower covid19:10122, covid19:10125, covid19:10127, covid19:10132, id-amr:10074,
+    id-amr:10163, id-amr:10197, id-amr:10198;
   skos:prefLabel "data"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10068 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "epidemiological data"@en .
 
 id-amr:10069 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "diagnostics usage data"@en .
 
 id-amr:10070 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "complete medical records"@en .
 
 id-amr:10071 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10132;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "imaging data"@en .
 
 id-amr:10072 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "data with respect to resistance"@en .
 
 id-amr:10073 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10109;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "health status data"@en .
 
@@ -441,7 +440,7 @@ covid19:10122 a skos:Concept;
   skos:prefLabel "economic data"@en .
 
 covid19:10114 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "treatment data"@en .
 
@@ -451,18 +450,21 @@ covid19:10127 a skos:Concept;
   skos:prefLabel "environmental data"@en .
 
 covid19:10244 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10191;
   skos:prefLabel "genomics data"@en .
 
 covid19:10112 a skos:Concept;
-  skos:broader gen:10005;
+  skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10190;
   skos:prefLabel "physiological data"@en .
 
 covid19:10132 a skos:Concept;
   skos:broader gen:10005;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10071;
   skos:prefLabel "audiovisual data"@en .
 
 gen:10008 a skos:Concept;
@@ -965,7 +967,7 @@ id-amr:10162 a skos:Concept;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10163 a skos:Concept;
-  skos:broader id-amr:10162;
+  skos:broader gen:10005, id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10170, id-amr:10171, id-amr:10172, id-amr:10173, id-amr:10174;
   skos:prefLabel "pre-analytical data"@en .
@@ -1093,6 +1095,111 @@ id-amr:10188 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "food specimen"@en .
 
+covid19:10109 a skos:Concept;
+  skos:broader covid19:10108;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10073;
+  skos:prefLabel "health record data"@en .
+
+id-amr:10190 a skos:Concept;
+  skos:broader covid19:10112;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "physiological - biochemical measurements"@en .
+
+id-amr:10191 a skos:Concept;
+  skos:broader covid19:10244;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "sequencing - genotyping data"@en .
+
+id-amr:10192 a skos:Concept;
+  skos:broader covid19:10108;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "clinical records"@en .
+
+id-amr:10193 a skos:Concept;
+  skos:broader covid19:10108;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "follow-up records"@en .
+
+id-amr:10194 a skos:Concept;
+  skos:broader covid19:10108;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "monitoring data"@en .
+
+id-amr:10195 a skos:Concept;
+  skos:broader covid19:10108;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "surveillance data"@en .
+
+id-amr:10196 a skos:Concept;
+  skos:broader covid19:10262;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "patient ethnicity data"@en .
+
+id-amr:10197 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "quality data"@en .
+
+id-amr:10198 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "experimental data"@en .
+
+id-amr:10199 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "biospecimen processing"@en .
+
+id-amr:10200 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "data analysis"@en .
+
+id-amr:10201 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "data integration"@en .
+
+id-amr:10202 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "digital imaging"@en .
+
+id-amr:10203 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "FAIRification service"@en .
+
+id-amr:10204 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "providing reference materials"@en .
+
+id-amr:10205 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "quality control"@en .
+
+id-amr:10206 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "regulatory"@en .
+
+id-amr:10207 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "training"@en .
+
+id-amr:10208 a skos:Concept;
+  skos:broader gen:10013;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "communication"@en .
+
+covid19:10108 skos:narrower covid19:10109, covid19:10112, covid19:10114, covid19:10244,
+    id-amr:10068, id-amr:10069, id-amr:10070, id-amr:10072, id-amr:10192, id-amr:10193,
+    id-amr:10194, id-amr:10195 .
+
 gen:10007 skos:narrower gen:10011 .
 
 covid19:10154 skos:narrower id-amr:10110, id-amr:10123, id-amr:10128 .
@@ -1110,3 +1217,8 @@ covid19:10162 skos:narrower id-amr:10146 .
 covid19:10163 skos:narrower id-amr:10149 .
 
 covid19:10165 skos:narrower id-amr:10151, id-amr:10152, id-amr:10153, id-amr:10154 .
+
+covid19:10262 skos:narrower id-amr:10196 .
+
+gen:10013 skos:narrower id-amr:10199, id-amr:10200, id-amr:10201, id-amr:10202, id-amr:10203,
+    id-amr:10204, id-amr:10205, id-amr:10206, id-amr:10207, id-amr:10208 .
