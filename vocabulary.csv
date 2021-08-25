@@ -33,7 +33,7 @@ id-amr:10005,intervention,,,,gen:10001
 id-amr:10006,preparedness and response,,,,gen:10001
 id-amr:10007,infection prevention,,,,gen:10001
 id-amr:10008,stewardship,,,,gen:10001
-id-amr:10009, zoonotic disease,,,,gen:10001
+id-amr:10009,zoonotic disease,,,,gen:10001
 id-amr:10010,vector-borne disease,,,,gen:10001
 id-amr:10011,prion disease,,,,gen:10001
 id-amr:10012,microbiome,,,,gen:10001
@@ -149,7 +149,7 @@ id-amr:10115,buccal cells,,,,id-amr:10107
 id-amr:10116,cells from fine needle aspirate,,,,id-amr:10107
 id-amr:10117,cells from laser capture microdissected tissue,,,,id-amr:10107
 id-amr:10118,"cells from non blood specimen type (e.g. ascites, amniotic), non-viable",,,,id-amr:10107
-id-amr:10119,"cells from non blood specimen type(e.g. ascites, amniotic), viable",,,,id-amr:10107
+id-amr:10119,"cells from non blood specimen type (e.g. ascites, amniotic), viable",,,,id-amr:10107
 id-amr:10120,"cells from non-blood specimen type (e.g. dissociated tissue), non-viable",,,,id-amr:10107
 id-amr:10121,"cells from non-blood specimen type (e.g. dissociated tissue), viable",,,,id-amr:10107
 id-amr:10122,cerebrospinal fluid,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/65216001
@@ -216,3 +216,4 @@ id-amr:10183,once every year,,,,id-amr:10182
 id-amr:10184,every 2 years,,,,id-amr:10182
 id-amr:10185,every 5 years,,,,id-amr:10182
 id-amr:10186,less frequently,,,,id-amr:10182
+id-amr:10187,integrity of nucleic acids,,,,id-amr:10162

@@ -721,7 +721,7 @@ id-amr:10118 a skos:Concept;
 id-amr:10119 a skos:Concept;
   skos:broader id-amr:10107;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "cells from non blood specimen type(e.g. ascites, amniotic), viable"@en .
+  skos:prefLabel "cells from non blood specimen type (e.g. ascites, amniotic), viable"@en .
 
 id-amr:10120 a skos:Concept;
   skos:broader id-amr:10107;
@@ -954,7 +954,7 @@ id-amr:10161 a skos:Concept;
 id-amr:10162 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10163, id-amr:10164, id-amr:10165, id-amr:10166, id-amr:10167,
-    id-amr:10168, id-amr:10179;
+    id-amr:10168, id-amr:10179, id-amr:10187;
   skos:prefLabel "quality control information on biomaterials"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -1076,6 +1076,11 @@ id-amr:10186 a skos:Concept;
   skos:broader id-amr:10182;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "less frequently"@en .
+
+id-amr:10187 a skos:Concept;
+  skos:broader id-amr:10162;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "integrity of nucleic acids"@en .
 
 gen:10007 skos:narrower gen:10011 .
 
