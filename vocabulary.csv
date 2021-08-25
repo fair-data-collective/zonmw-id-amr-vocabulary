@@ -193,26 +193,26 @@ id-amr:10159,plant specimen,,,,id-amr:10155,http://purl.bioontology.org/ontology
 id-amr:10160,solution,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/8537005
 id-amr:10161,biomedical device,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/63653004
 id-amr:10162,quality control information on biomaterials
-id-amr:10163,pre-analytical data,,,,id-amr: 10162
-id-amr:10164,freeze thaw cycles,,,,id-amr: 10162
-id-amr:10165,concentration of molecular or cellurlar derivatives,,,,id-amr: 10162
-id-amr:10166,purity of nucleic acids,,,,id-amr: 10162
-id-amr:10167,amplifiablility of nucleic acids,,,,id-amr: 10162
-id-amr:10168,sample storage,,,,id-amr: 10162
-id-amr:10170,type of primary container,,,,id-amr: 10163
-id-amr:10171,pre-centrifugation conditions,,,,id-amr: 10163
-id-amr:10172,centrifugaion conditions,,,,id-amr: 10163
-id-amr:10173,post-centrifugation conditions,,,,id-amr: 10163
-id-amr:10174,long-term storage conditions,,,,id-amr: 10163
-id-amr:10175,storage format,,,,id-amr: 10168
-id-amr:10176,storage temperature,,,,id-amr: 10168
-id-amr:10177,derivative type,,,,id-amr: 10168
-id-amr:10178,freeze thaw cycles of sample storage,,,,id-amr: 10168
-id-amr:10179,information on microbiology biomaterial,,,,id-amr: 10162
-id-amr:10180,authenticity on microbiology biomaterial ,,,,id-amr: 10179
-id-amr:10181,purity on microbiology biomaterial ,,,,id-amr: 10179
-id-amr:10182,viability on microbiology biomaterial ,,,,id-amr: 10179
-id-amr:10183,once every year,,,,id-amr: 10182
-id-amr:10184,every 2 years,,,,id-amr: 10182
-id-amr:10185,every 5 years,,,,id-amr: 10182
-id-amr:10186,less frequently,,,,id-amr: 10182
+id-amr:10163,pre-analytical data,,,,id-amr:10162
+id-amr:10164,freeze thaw cycles,,,,id-amr:10162
+id-amr:10165,concentration of molecular or cellurlar derivatives,,,,id-amr:10162
+id-amr:10166,purity of nucleic acids,,,,id-amr:10162
+id-amr:10167,amplifiablility of nucleic acids,,,,id-amr:10162
+id-amr:10168,sample storage,,,,id-amr:10162
+id-amr:10170,type of primary container,,,,id-amr:10163
+id-amr:10171,pre-centrifugation conditions,,,,id-amr:10163
+id-amr:10172,centrifugaion conditions,,,,id-amr:10163
+id-amr:10173,post-centrifugation conditions,,,,id-amr:10163
+id-amr:10174,long-term storage conditions,,,,id-amr:10163
+id-amr:10175,storage format,,,,id-amr:10168
+id-amr:10176,storage temperature,,,,id-amr:10168
+id-amr:10177,derivative type,,,,id-amr:10168
+id-amr:10178,freeze thaw cycles of sample storage,,,,id-amr:10168
+id-amr:10179,information on microbiology biomaterial,,,,id-amr:10162
+id-amr:10180,authenticity on microbiology biomaterial ,,,,id-amr:10179
+id-amr:10181,purity on microbiology biomaterial ,,,,id-amr:10179
+id-amr:10182,viability on microbiology biomaterial ,,,,id-amr:10179
+id-amr:10183,once every year,,,,id-amr:10182
+id-amr:10184,every 2 years,,,,id-amr:10182
+id-amr:10185,every 5 years,,,,id-amr:10182
+id-amr:10186,less frequently,,,,id-amr:10182
