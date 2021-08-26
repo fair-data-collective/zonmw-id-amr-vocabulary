@@ -294,7 +294,7 @@ id-amr:10047 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10048, id-amr:10049, id-amr:10050, id-amr:10051, id-amr:10052,
     id-amr:10053, id-amr:10054, id-amr:10055, id-amr:10056, id-amr:10057, id-amr:10058,
-    id-amr:10059, id-amr:10060;
+    id-amr:10059;
   skos:prefLabel "livestock"@en .
 
 id-amr:10048 a skos:Concept;
@@ -358,7 +358,7 @@ id-amr:10059 a skos:Concept;
   skos:prefLabel "layer"@en .
 
 id-amr:10060 a skos:Concept;
-  skos:broader id-amr:10047;
+  skos:broader covid19:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "poultry"@en .
 
@@ -385,12 +385,12 @@ id-amr:10065 a skos:Concept;
 id-amr:10066 a skos:Concept;
   skos:broader gen:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "fish (aquaculture)"@en .
+  skos:prefLabel "aquaculture"@en .
 
 gen:10005 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower covid19:10108, covid19:10122, covid19:10125, covid19:10127, covid19:10132,
-    id-amr:10074, id-amr:10163, id-amr:10197, id-amr:10198, id-amr:10221;
+    covid19:10262, id-amr:10074, id-amr:10163, id-amr:10197, id-amr:10198, id-amr:10209;
   skos:prefLabel "data"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -1204,10 +1204,18 @@ covid19:10108 a skos:Concept;
     id-amr:10195;
   skos:prefLabel "health data"@en .
 
-id-amr:10221 a skos:Concept;
+covid19:10262 a skos:Concept;
   skos:broader gen:10005;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10196;
   skos:prefLabel "personal information data"@en .
+
+id-amr:10209 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "national registries data"@en .
+
+covid19:10025 skos:narrower id-amr:10060 .
 
 gen:10007 skos:narrower gen:10011 .
 
@@ -1226,8 +1234,6 @@ covid19:10162 skos:narrower id-amr:10146 .
 covid19:10163 skos:narrower id-amr:10149 .
 
 covid19:10165 skos:narrower id-amr:10151, id-amr:10152, id-amr:10153, id-amr:10154 .
-
-covid19:10262 skos:narrower id-amr:10196 .
 
 gen:10013 skos:narrower id-amr:10199, id-amr:10200, id-amr:10201, id-amr:10202, id-amr:10203,
     id-amr:10204, id-amr:10205, id-amr:10206, id-amr:10207, id-amr:10208 .

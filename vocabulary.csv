@@ -85,12 +85,12 @@ id-amr:10056,horse,,,,id-amr:10047
 id-amr:10057,pig,,,,id-amr:10047
 id-amr:10058,broiler,,,,id-amr:10047
 id-amr:10059,layer,,,,id-amr:10047
-id-amr:10060,poultry,,,,id-amr:10047
+id-amr:10060,poultry,,,,covid19:10025
 id-amr:10061,insect,,,,gen:10025
 id-amr:10062,wildlife,,,,gen:10025
 id-amr:10063,companion animal,,,,gen:10025
 id-amr:10065,fungus,,,,gen:10024
-id-amr:10066,fish (aquaculture),,,,gen:10025
+id-amr:10066,aquaculture,,,,gen:10025
 gen:10005,data
 id-amr:10068,epidemiological data,,,,covid19:10108
 id-amr:10069,diagnostics usage data,,,,covid19:10108
@@ -239,4 +239,5 @@ id-amr:10206,regulatory,,,,gen:10013
 id-amr:10207,training,,,,gen:10013
 id-amr:10208,communication,,,,gen:10013
 covid19:10108,health data,,,,gen:10005
-id-amr:10221,personal information data,,,,gen:10005
+covid19:10262,personal information data,,,,gen:10005
+id-amr:10209,national registries data,,,,gen:10005
