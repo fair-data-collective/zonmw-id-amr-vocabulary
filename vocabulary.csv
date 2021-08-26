@@ -204,10 +204,6 @@ id-amr:10171,pre-centrifugation conditions,,,,id-amr:10163
 id-amr:10172,centrifugaion conditions,,,,id-amr:10163
 id-amr:10173,post-centrifugation conditions,,,,id-amr:10163
 id-amr:10174,long-term storage conditions,,,,id-amr:10163
-id-amr:10175,storage format,,,,id-amr:10168
-id-amr:10176,storage temperature,,,,id-amr:10168
-id-amr:10177,derivative type,,,,id-amr:10168
-id-amr:10178,freeze thaw cycles of sample storage,,,,id-amr:10168
 id-amr:10179,information on microbiology biomaterial,,,,id-amr:10162
 id-amr:10180,authenticity on microbiology biomaterial ,,,,id-amr:10179
 id-amr:10181,purity on microbiology biomaterial ,,,,id-amr:10179

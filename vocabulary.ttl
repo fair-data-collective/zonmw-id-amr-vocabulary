@@ -996,7 +996,6 @@ id-amr:10167 a skos:Concept;
 id-amr:10168 a skos:Concept;
   skos:broader id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10175, id-amr:10176, id-amr:10177, id-amr:10178;
   skos:prefLabel "sample storage"@en .
 
 id-amr:10170 a skos:Concept;
@@ -1023,26 +1022,6 @@ id-amr:10174 a skos:Concept;
   skos:broader id-amr:10163;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "long-term storage conditions"@en .
-
-id-amr:10175 a skos:Concept;
-  skos:broader id-amr:10168;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "storage format"@en .
-
-id-amr:10176 a skos:Concept;
-  skos:broader id-amr:10168;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "storage temperature"@en .
-
-id-amr:10177 a skos:Concept;
-  skos:broader id-amr:10168;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "derivative type"@en .
-
-id-amr:10178 a skos:Concept;
-  skos:broader id-amr:10168;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "freeze thaw cycles of sample storage"@en .
 
 id-amr:10179 a skos:Concept;
   skos:broader id-amr:10162;
