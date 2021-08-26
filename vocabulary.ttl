@@ -390,7 +390,7 @@ id-amr:10066 a skos:Concept;
 gen:10005 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower covid19:10108, covid19:10122, covid19:10125, covid19:10127, covid19:10132,
-    id-amr:10074, id-amr:10163, id-amr:10197, id-amr:10198;
+    id-amr:10074, id-amr:10163, id-amr:10197, id-amr:10198, id-amr:10221;
   skos:prefLabel "data"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -1203,6 +1203,11 @@ covid19:10108 a skos:Concept;
     id-amr:10069, id-amr:10070, id-amr:10072, id-amr:10192, id-amr:10193, id-amr:10194,
     id-amr:10195;
   skos:prefLabel "health data"@en .
+
+id-amr:10221 a skos:Concept;
+  skos:broader gen:10005;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "personal information data"@en .
 
 gen:10007 skos:narrower gen:10011 .
 
