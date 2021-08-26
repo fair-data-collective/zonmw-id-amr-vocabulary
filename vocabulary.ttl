@@ -145,7 +145,8 @@ gen:10024 a skos:Concept;
 gen:10025 a skos:Concept;
   skos:broader gen:10008;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10047, id-amr:10061, id-amr:10062, id-amr:10063, id-amr:10066;
+  skos:narrower id-amr:10047, id-amr:10060, id-amr:10061, id-amr:10062, id-amr:10063,
+    id-amr:10066;
   skos:prefLabel "animal"@en, "disease"@en .
 
 gen:10003 a skos:Concept;
@@ -358,7 +359,7 @@ id-amr:10059 a skos:Concept;
   skos:prefLabel "layer"@en .
 
 id-amr:10060 a skos:Concept;
-  skos:broader covid19:10025;
+  skos:broader gen:10025;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "poultry"@en .
 
@@ -1214,8 +1215,6 @@ id-amr:10209 a skos:Concept;
   skos:broader gen:10005;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "national registries data"@en .
-
-covid19:10025 skos:narrower id-amr:10060 .
 
 gen:10007 skos:narrower gen:10011 .
 
