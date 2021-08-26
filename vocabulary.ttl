@@ -470,8 +470,7 @@ covid19:10132 a skos:Concept;
 
 gen:10008 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower gen:10024, gen:10025, id-amr:10102, id-amr:10103, id-amr:10104, id-amr:10105,
-    id-amr:10106;
+  skos:narrower gen:10024, gen:10025;
   skos:prefLabel "organism"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -609,7 +608,8 @@ id-amr:10099 a skos:Concept;
 gen:10098 a skos:Concept;
   skos:exactMatch <http://purl.bioontology.org/ontology/STY/T002>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10100, id-amr:10101;
+  skos:narrower id-amr:10100, id-amr:10101, id-amr:10102, id-amr:10103, id-amr:10104,
+    id-amr:10105, id-amr:10106;
   skos:prefLabel "plant"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -626,30 +626,30 @@ id-amr:10101 a skos:Concept;
   skos:prefLabel "vegetable"@en .
 
 id-amr:10102 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader gen:10098;
   skos:exactMatch <http://purl.obolibrary.org/obo/AGRO_00000325>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "crop"@en .
 
 id-amr:10103 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader gen:10098;
   skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/23182003>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "cereal"@en .
 
 id-amr:10104 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader gen:10098;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "oil seed"@en .
 
 id-amr:10105 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader gen:10098;
   skos:exactMatch <http://purl.jp/bio/4/id/200906074151720668>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "pulse - bean"@en .
 
 id-amr:10106 a skos:Concept;
-  skos:broader gen:10008;
+  skos:broader gen:10098;
   skos:exactMatch <http://purl.bioontology.org/ontology/SNOMEDCT/442571000124108>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "tree nut"@en .

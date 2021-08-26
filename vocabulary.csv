@@ -132,11 +132,11 @@ id-amr:10099,body fluid sample,,,,gen:10009,http://purl.bioontology.org/ontology
 gen:10098,plant,,,,,http://purl.bioontology.org/ontology/STY/T002
 id-amr:10100,fruit,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/72511004
 id-amr:10101,vegetable,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/22836000
-id-amr:10102,crop,,,,gen:10008,http://purl.obolibrary.org/obo/AGRO_00000325
-id-amr:10103,cereal,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/23182003
-id-amr:10104,oil seed,,,,gen:10008
-id-amr:10105,pulse - bean,,,,gen:10008,http://purl.jp/bio/4/id/200906074151720668
-id-amr:10106,tree nut,,,,gen:10008,http://purl.bioontology.org/ontology/SNOMEDCT/442571000124108
+id-amr:10102,crop,,,,gen:10098,http://purl.obolibrary.org/obo/AGRO_00000325
+id-amr:10103,cereal,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/23182003
+id-amr:10104,oil seed,,,,gen:10098
+id-amr:10105,pulse - bean,,,,gen:10098,http://purl.jp/bio/4/id/200906074151720668
+id-amr:10106,tree nut,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/442571000124108
 id-amr:10107,detailed type of specimen
 id-amr:10108,amniotic fluid,,,,id-amr:10107,http://purl.bioontology.org/ontology/SNOMEDCT/77012006
 id-amr:10109,ascites fluid,,,,id-amr:10107
