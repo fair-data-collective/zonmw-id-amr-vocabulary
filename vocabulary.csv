@@ -204,18 +204,18 @@ id-amr:10171,pre-centrifugation conditions,,,,id-amr:10163
 id-amr:10172,centrifugaion conditions,,,,id-amr:10163
 id-amr:10173,post-centrifugation conditions,,,,id-amr:10163
 id-amr:10174,long-term storage conditions,,,,id-amr:10163
-id-amr:10179,information on microbiology biomaterial,,,,id-amr:10162
-id-amr:10180,authenticity on microbiology biomaterial ,,,,id-amr:10179
-id-amr:10181,purity on microbiology biomaterial ,,,,id-amr:10179
-id-amr:10182,viability on microbiology biomaterial ,,,,id-amr:10179
+id-amr:10179,information on microbiological material,,,,id-amr:10162
+id-amr:10180,authenticity of microbiological material ,,,,id-amr:10179
+id-amr:10181,purity of microbiological material ,,,,id-amr:10179
+id-amr:10182,viability of microbiological material ,,,,id-amr:10179
 id-amr:10183,once every year,,,,id-amr:10182
-id-amr:10184,every 2 years,,,,id-amr:10182
-id-amr:10185,every 5 years,,,,id-amr:10182
+id-amr:10184,every two years,,,,id-amr:10182
+id-amr:10185,every five years,,,,id-amr:10182
 id-amr:10186,less frequently,,,,id-amr:10182
 id-amr:10187,integrity of nucleic acids,,,,id-amr:10162
 id-amr:10188,food specimen,,,,id-amr:10155
 covid19:10109,health record data,,,,covid19:10108
-id-amr:10190,physiological - biochemical measurements,,,,covid19:10112
+id-amr:10190,physiological - biochemical measurement,,,,covid19:10112
 id-amr:10191,sequencing - genotyping data,,,,covid19:10244
 id-amr:10192,clinical records,,,,covid19:10108
 id-amr:10193,follow-up records,,,,covid19:10108
@@ -237,3 +237,43 @@ id-amr:10208,communication,,,,gen:10013
 covid19:10108,health data,,,,gen:10005
 covid19:10262,personal information data,,,,gen:10005
 id-amr:10209,national registries data,,,,gen:10005
+id-amr:10210,organisation level
+id-amr:10211,university faculty,,,,id-amr:10210
+id-amr:10212,university hospital,,,,id-amr:10210
+id-amr:10213,laboratory ,,,,id-amr:10210
+id-amr:10214,research group,,,,id-amr:10210
+id-amr:10215,specific research project,,,,id-amr:10210
+id-amr:10216,reference centre,,,,id-amr:10210
+id-amr:10217,company department,,,,id-amr:10210
+id-amr:10218,public funding,,,,id-amr:10210
+id-amr:10219,private funding,,,,id-amr:10210
+id-amr:10220,charity of philanthropic funding,,,,id-amr:10210
+id-amr:10221,collection status
+id-amr:10222,not started,,,,id-amr:10221
+id-amr:10223,in progress,,,,id-amr:10221
+id-amr:10224,completed,,,,id-amr:10221
+id-amr:10225,consent restriction
+id-amr:10226,commerial resctriction,,,,id-amr:10225
+id-amr:10227,disease area restriction,,,,id-amr:10225
+id-amr:10228,export restriction,,,,id-amr:10225
+id-amr:10229,genetic analysis restriction,,,,id-amr:10225
+id-amr:10230,human genetic analysis restriction,,,,id-amr:10225
+id-amr:10231,project specific restriction,,,,id-amr:10225
+id-amr:10232,scope of use restriction,,,,id-amr:10225
+id-amr:10233,access condition
+id-amr:10234,open to everyone,,,,id-amr:10233
+id-amr:10235,open to applicants,,,,id-amr:10233
+id-amr:10236,open in response to specific calls,,,,id-amr:10233
+id-amr:10237,open only through collaboration,,,,id-amr:10233
+id-amr:10238,data access only,,,,id-amr:10233
+id-amr:10239,access restricted at present,,,,id-amr:10233
+id-amr:10240,closed to access,,,,id-amr:10233
+id-amr:10241,time frame
+id-amr:10242,up to one month,,,,id-amr:10241
+id-amr:10243,up to one year,,,,id-amr:10241
+id-amr:10244,up to three years,,,,id-amr:10241
+id-amr:10245,three years or longer,,,,id-amr:10241
+id-amr:10246,data quality
+id-amr:10247,data plausibility,,,,id-amr:10246
+id-amr:10248,data completeness,,,,id-amr:10246
+id-amr:10249,data accuracy,,,,id-amr:10246

@@ -28,7 +28,8 @@
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
-    gen:10098, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155, id-amr:10162;
+    gen:10098, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155, id-amr:10162,
+    id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233, id-amr:10241, id-amr:10246;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -1027,23 +1028,23 @@ id-amr:10179 a skos:Concept;
   skos:broader id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10180, id-amr:10181, id-amr:10182;
-  skos:prefLabel "information on microbiology biomaterial"@en .
+  skos:prefLabel "information on microbiological material"@en .
 
 id-amr:10180 a skos:Concept;
   skos:broader id-amr:10179;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "authenticity on microbiology biomaterial"@en .
+  skos:prefLabel "authenticity of microbiological material"@en .
 
 id-amr:10181 a skos:Concept;
   skos:broader id-amr:10179;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "purity on microbiology biomaterial"@en .
+  skos:prefLabel "purity of microbiological material"@en .
 
 id-amr:10182 a skos:Concept;
   skos:broader id-amr:10179;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10183, id-amr:10184, id-amr:10185, id-amr:10186;
-  skos:prefLabel "viability on microbiology biomaterial"@en .
+  skos:prefLabel "viability of microbiological material"@en .
 
 id-amr:10183 a skos:Concept;
   skos:broader id-amr:10182;
@@ -1053,12 +1054,12 @@ id-amr:10183 a skos:Concept;
 id-amr:10184 a skos:Concept;
   skos:broader id-amr:10182;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "every 2 years"@en .
+  skos:prefLabel "every two years"@en .
 
 id-amr:10185 a skos:Concept;
   skos:broader id-amr:10182;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "every 5 years"@en .
+  skos:prefLabel "every five years"@en .
 
 id-amr:10186 a skos:Concept;
   skos:broader id-amr:10182;
@@ -1084,7 +1085,7 @@ covid19:10109 a skos:Concept;
 id-amr:10190 a skos:Concept;
   skos:broader covid19:10112;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "physiological - biochemical measurements"@en .
+  skos:prefLabel "physiological - biochemical measurement"@en .
 
 id-amr:10191 a skos:Concept;
   skos:broader covid19:10244;
@@ -1194,6 +1195,215 @@ id-amr:10209 a skos:Concept;
   skos:broader gen:10005;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "national registries data"@en .
+
+id-amr:10210 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10211, id-amr:10212, id-amr:10213, id-amr:10214, id-amr:10215,
+    id-amr:10216, id-amr:10217, id-amr:10218, id-amr:10219, id-amr:10220;
+  skos:prefLabel "organisation level"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10211 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "university faculty"@en .
+
+id-amr:10212 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "university hospital"@en .
+
+id-amr:10213 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "laboratory"@en .
+
+id-amr:10214 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "research group"@en .
+
+id-amr:10215 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "specific research project"@en .
+
+id-amr:10216 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "reference centre"@en .
+
+id-amr:10217 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "company department"@en .
+
+id-amr:10218 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "public funding"@en .
+
+id-amr:10219 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "private funding"@en .
+
+id-amr:10220 a skos:Concept;
+  skos:broader id-amr:10210;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "charity of philanthropic funding"@en .
+
+id-amr:10221 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10222, id-amr:10223, id-amr:10224;
+  skos:prefLabel "collection status"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10222 a skos:Concept;
+  skos:broader id-amr:10221;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "not started"@en .
+
+id-amr:10223 a skos:Concept;
+  skos:broader id-amr:10221;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "in progress"@en .
+
+id-amr:10224 a skos:Concept;
+  skos:broader id-amr:10221;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "completed"@en .
+
+id-amr:10225 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10226, id-amr:10227, id-amr:10228, id-amr:10229, id-amr:10230,
+    id-amr:10231, id-amr:10232;
+  skos:prefLabel "consent restriction"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10226 a skos:Concept;
+  skos:broader id-amr:10225;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "commerial resctriction"@en .
+
+id-amr:10227 a skos:Concept;
+  skos:broader id-amr:10225;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "disease area restriction"@en .
+
+id-amr:10228 a skos:Concept;
+  skos:broader id-amr:10225;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "export restriction"@en .
+
+id-amr:10229 a skos:Concept;
+  skos:broader id-amr:10225;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "genetic analysis restriction"@en .
+
+id-amr:10230 a skos:Concept;
+  skos:broader id-amr:10225;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "human genetic analysis restriction"@en .
+
+id-amr:10231 a skos:Concept;
+  skos:broader id-amr:10225;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "project specific restriction"@en .
+
+id-amr:10232 a skos:Concept;
+  skos:broader id-amr:10225;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "scope of use restriction"@en .
+
+id-amr:10233 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10234, id-amr:10235, id-amr:10236, id-amr:10237, id-amr:10238,
+    id-amr:10239, id-amr:10240;
+  skos:prefLabel "access condition"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10234 a skos:Concept;
+  skos:broader id-amr:10233;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "open to everyone"@en .
+
+id-amr:10235 a skos:Concept;
+  skos:broader id-amr:10233;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "open to applicants"@en .
+
+id-amr:10236 a skos:Concept;
+  skos:broader id-amr:10233;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "open in response to specific calls"@en .
+
+id-amr:10237 a skos:Concept;
+  skos:broader id-amr:10233;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "open only through collaboration"@en .
+
+id-amr:10238 a skos:Concept;
+  skos:broader id-amr:10233;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "data access only"@en .
+
+id-amr:10239 a skos:Concept;
+  skos:broader id-amr:10233;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "access restricted at present"@en .
+
+id-amr:10240 a skos:Concept;
+  skos:broader id-amr:10233;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "closed to access"@en .
+
+id-amr:10241 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10242, id-amr:10243, id-amr:10244, id-amr:10245;
+  skos:prefLabel "time frame"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10242 a skos:Concept;
+  skos:broader id-amr:10241;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "up to one month"@en .
+
+id-amr:10243 a skos:Concept;
+  skos:broader id-amr:10241;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "up to one year"@en .
+
+id-amr:10244 a skos:Concept;
+  skos:broader id-amr:10241;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "up to three years"@en .
+
+id-amr:10245 a skos:Concept;
+  skos:broader id-amr:10241;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "three years or longer"@en .
+
+id-amr:10246 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10247, id-amr:10248, id-amr:10249;
+  skos:prefLabel "data quality"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10247 a skos:Concept;
+  skos:broader id-amr:10246;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "data plausibility"@en .
+
+id-amr:10248 a skos:Concept;
+  skos:broader id-amr:10246;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "data completeness"@en .
+
+id-amr:10249 a skos:Concept;
+  skos:broader id-amr:10246;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "data accuracy"@en .
 
 gen:10007 skos:narrower gen:10011 .
 
