@@ -277,3 +277,6 @@ id-amr:10246,data quality
 id-amr:10247,data plausibility,,,,id-amr:10246
 id-amr:10248,data completeness,,,,id-amr:10246
 id-amr:10249,data accuracy,,,,id-amr:10246
+id-amr:10250,sensitive information,,,,covid19:10262
+id-amr:10251,"yes, and it is GDPR compliant",,,,id-amr:10250
+id-amr:10252,"yes, but it is not (yet) GDPR compliant",,,,id-amr:10250

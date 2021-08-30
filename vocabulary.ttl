@@ -1188,7 +1188,7 @@ covid19:10108 a skos:Concept;
 covid19:10262 a skos:Concept;
   skos:broader gen:10005;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10196;
+  skos:narrower id-amr:10196, id-amr:10250;
   skos:prefLabel "personal information data"@en .
 
 id-amr:10209 a skos:Concept;
@@ -1404,6 +1404,22 @@ id-amr:10249 a skos:Concept;
   skos:broader id-amr:10246;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "data accuracy"@en .
+
+id-amr:10250 a skos:Concept;
+  skos:broader covid19:10262;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10251, id-amr:10252;
+  skos:prefLabel "sensitive information"@en .
+
+id-amr:10251 a skos:Concept;
+  skos:broader id-amr:10250;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "yes, and it is GDPR compliant"@en .
+
+id-amr:10252 a skos:Concept;
+  skos:broader id-amr:10250;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "yes, but it is not (yet) GDPR compliant"@en .
 
 gen:10007 skos:narrower gen:10011 .
 
