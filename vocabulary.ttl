@@ -35,7 +35,7 @@
 id-amr:10000 a skos:Concept;
   skos:definition "This is a set of controlled terms which are deprecated."@en;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "Deprecated"@en;
+  skos:prefLabel "deprecated"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 gen:10001 a skos:Concept;
@@ -965,7 +965,7 @@ id-amr:10162 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10163, id-amr:10164, id-amr:10165, id-amr:10166, id-amr:10167,
     id-amr:10168, id-amr:10179, id-amr:10187;
-  skos:prefLabel "quality control information on biomaterials"@en;
+  skos:prefLabel "quality control information about biomaterials"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10163 a skos:Concept;
@@ -1028,7 +1028,7 @@ id-amr:10179 a skos:Concept;
   skos:broader id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10180, id-amr:10181, id-amr:10182;
-  skos:prefLabel "information on microbiological material"@en .
+  skos:prefLabel "information about microbiological material"@en .
 
 id-amr:10180 a skos:Concept;
   skos:broader id-amr:10179;

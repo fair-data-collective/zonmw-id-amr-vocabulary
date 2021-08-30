@@ -23,7 +23,7 @@ pav:lastUpdatedOn,2021-06-29T08:26:00+00:00
 
 
 Identifier,skos:prefLabel@en,"skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")","skos:broadMatch(separator="","")","skos:narrowMatch(separator="","")","skos:relatedMatch(separator="","")",owl:deprecated^^xsd:boolean,dct:isReplacedBy,skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
-id-amr:10000,Deprecated,,This is a set of controlled terms which are deprecated.,,,, 
+id-amr:10000,deprecated,,This is a set of controlled terms which are deprecated.,,,, 
 gen:10001,focus area
 id-amr:10001,therapeutics,,,,gen:10001,, 
 id-amr:10002,surveillance,,,,gen:10001
@@ -192,7 +192,7 @@ id-amr:10158,specimen from environment,,,,id-amr:10155,http://purl.bioontology.o
 id-amr:10159,plant specimen,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/119301009
 id-amr:10160,solution,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/8537005
 id-amr:10161,biomedical device,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/63653004
-id-amr:10162,quality control information on biomaterials
+id-amr:10162,quality control information about biomaterials
 id-amr:10163,pre-analytical data,,,,"id-amr:10162, gen:10005"
 id-amr:10164,freeze thaw cycles,,,,id-amr:10162
 id-amr:10165,concentration of molecular or cellurlar derivatives,,,,id-amr:10162
@@ -204,7 +204,7 @@ id-amr:10171,pre-centrifugation conditions,,,,id-amr:10163
 id-amr:10172,centrifugaion conditions,,,,id-amr:10163
 id-amr:10173,post-centrifugation conditions,,,,id-amr:10163
 id-amr:10174,long-term storage conditions,,,,id-amr:10163
-id-amr:10179,information on microbiological material,,,,id-amr:10162
+id-amr:10179,information about microbiological material,,,,id-amr:10162
 id-amr:10180,authenticity of microbiological material ,,,,id-amr:10179
 id-amr:10181,purity of microbiological material ,,,,id-amr:10179
 id-amr:10182,viability of microbiological material ,,,,id-amr:10179
