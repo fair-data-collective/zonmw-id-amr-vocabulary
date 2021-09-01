@@ -1421,6 +1421,43 @@ id-amr:10252 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "yes, but it is not (yet) GDPR compliant"@en .
 
+gen:10097 a skos:Concept;
+  skos:broader gen:10026;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10253, id-amr:10254, id-amr:10255, id-amr:10256, id-amr:10257,
+    id-amr:10258;
+  skos:prefLabel "plant disease"@en .
+
+id-amr:10253 a skos:Concept;
+  skos:broader gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "viral disease"@en .
+
+id-amr:10254 a skos:Concept;
+  skos:broader gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "bacterial disease"@en .
+
+id-amr:10255 a skos:Concept;
+  skos:broader gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "fungal disease"@en .
+
+id-amr:10256 a skos:Concept;
+  skos:broader gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "nematode disease"@en .
+
+id-amr:10257 a skos:Concept;
+  skos:broader gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "phytoplasma disease"@en .
+
+id-amr:10258 a skos:Concept;
+  skos:broader gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "disease caused by insects"@en .
+
 gen:10007 skos:narrower gen:10011 .
 
 covid19:10154 skos:narrower id-amr:10110, id-amr:10123, id-amr:10128 .
@@ -1441,3 +1478,5 @@ covid19:10165 skos:narrower id-amr:10151, id-amr:10152, id-amr:10153, id-amr:101
 
 gen:10013 skos:narrower id-amr:10199, id-amr:10200, id-amr:10201, id-amr:10202, id-amr:10203,
     id-amr:10204, id-amr:10205, id-amr:10206, id-amr:10207, id-amr:10208 .
+
+gen:10026 skos:narrower gen:10097 .
