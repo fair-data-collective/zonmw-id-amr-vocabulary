@@ -28,9 +28,9 @@
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
-    gen:10011, gen:10097, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155,
-    id-amr:10162, id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233, id-amr:10241,
-    id-amr:10246, id-amr:10259;
+    gen:10011, gen:10096, gen:10097, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107,
+    id-amr:10155, id-amr:10162, id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233,
+    id-amr:10241, id-amr:10246, id-amr:10261;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -1240,17 +1240,17 @@ id-amr:10217 a skos:Concept;
   skos:prefLabel "company department"@en .
 
 id-amr:10218 a skos:Concept;
-  skos:broader id-amr:10259;
+  skos:broader id-amr:10261;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "public funding"@en .
 
 id-amr:10219 a skos:Concept;
-  skos:broader id-amr:10259;
+  skos:broader id-amr:10261;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "private funding"@en .
 
 id-amr:10220 a skos:Concept;
-  skos:broader id-amr:10259;
+  skos:broader id-amr:10261;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "charity of philanthropic funding"@en .
 
@@ -1425,27 +1425,27 @@ id-amr:10252 a skos:Concept;
 gen:10097 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10253, id-amr:10254, id-amr:10255, id-amr:10256, id-amr:10257,
-    id-amr:10258;
+    id-amr:10258, id-amr:10259, id-amr:10260;
   skos:prefLabel "plant disease"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10253 a skos:Concept;
-  skos:broader gen:10097;
+  skos:broader gen:10096, gen:10097;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "viral disease"@en .
 
 id-amr:10254 a skos:Concept;
-  skos:broader gen:10097;
+  skos:broader gen:10096, gen:10097;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "bacterial disease"@en .
 
 id-amr:10255 a skos:Concept;
-  skos:broader gen:10097;
+  skos:broader gen:10096, gen:10097;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "fungal disease"@en .
 
 id-amr:10256 a skos:Concept;
-  skos:broader gen:10097;
+  skos:broader gen:10096, gen:10097;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "nematode disease"@en .
 
@@ -1455,11 +1455,28 @@ id-amr:10257 a skos:Concept;
   skos:prefLabel "phytoplasma disease"@en .
 
 id-amr:10258 a skos:Concept;
-  skos:broader gen:10097;
+  skos:broader gen:10096, gen:10097;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "disease caused by insects"@en .
 
 id-amr:10259 a skos:Concept;
+  skos:broader gen:10096, gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "parasite disease"@en .
+
+id-amr:10260 a skos:Concept;
+  skos:broader gen:10096, gen:10097;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "non-infectious disease"@en .
+
+gen:10096 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10253, id-amr:10254, id-amr:10255, id-amr:10256, id-amr:10258,
+    id-amr:10259, id-amr:10260;
+  skos:prefLabel "animal disease"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10261 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10218, id-amr:10219, id-amr:10220;
   skos:prefLabel "funding type"@en;
