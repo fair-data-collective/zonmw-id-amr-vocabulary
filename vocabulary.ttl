@@ -28,9 +28,9 @@
   pav:lastUpdatedOn "2021-06-29T08:26:00+00:00"@en;
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
-    gen:10098, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155, id-amr:10162,
-    id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233, id-amr:10241, id-amr:10246,
-    id-amr:10259;
+    gen:10011, gen:10097, gen:10098, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107,
+    id-amr:10155, id-amr:10162, id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233,
+    id-amr:10241, id-amr:10246, id-amr:10259;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -500,10 +500,10 @@ covid19:10150 a skos:Concept;
   skos:prefLabel "virus"@en .
 
 gen:10011 a skos:Concept;
-  skos:broader gen:10007;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10085, id-amr:10086;
-  skos:prefLabel "macromolecule"@en .
+  skos:prefLabel "macromolecule"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10085 a skos:Concept;
   skos:broader gen:10011;
@@ -1423,11 +1423,11 @@ id-amr:10252 a skos:Concept;
   skos:prefLabel "yes, but it is not (yet) GDPR compliant"@en .
 
 gen:10097 a skos:Concept;
-  skos:broader gen:10026;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10253, id-amr:10254, id-amr:10255, id-amr:10256, id-amr:10257,
     id-amr:10258;
-  skos:prefLabel "plant disease"@en .
+  skos:prefLabel "plant disease"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10253 a skos:Concept;
   skos:broader gen:10097;
@@ -1465,8 +1465,6 @@ id-amr:10259 a skos:Concept;
   skos:prefLabel "funding type"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
-gen:10007 skos:narrower gen:10011 .
-
 covid19:10154 skos:narrower id-amr:10110, id-amr:10123, id-amr:10128 .
 
 covid19:10157 skos:narrower id-amr:10138, id-amr:10139 .
@@ -1485,5 +1483,3 @@ covid19:10165 skos:narrower id-amr:10151, id-amr:10152, id-amr:10153, id-amr:101
 
 gen:10013 skos:narrower id-amr:10199, id-amr:10200, id-amr:10201, id-amr:10202, id-amr:10203,
     id-amr:10204, id-amr:10205, id-amr:10206, id-amr:10207, id-amr:10208 .
-
-gen:10026 skos:narrower gen:10097 .
