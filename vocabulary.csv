@@ -128,7 +128,7 @@ id-amr:10096,stool specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SN
 id-amr:10097,synovial fluid specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/119332005
 id-amr:10098,urine specimen,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/122575003
 id-amr:10099,body fluid sample,,,,gen:10009,http://purl.bioontology.org/ontology/SNOMEDCT/309051001
-gen:10098,plant,,,,,http://purl.bioontology.org/ontology/STY/T002
+gen:10098,plant,,,,gen:10008,http://purl.bioontology.org/ontology/STY/T002
 id-amr:10100,fruit,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/72511004
 id-amr:10101,vegetable,,,,gen:10098,http://purl.bioontology.org/ontology/SNOMEDCT/22836000
 id-amr:10102,crop,,,,gen:10098,http://purl.obolibrary.org/obo/AGRO_00000325
