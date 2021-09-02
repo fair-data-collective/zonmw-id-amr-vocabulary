@@ -29,7 +29,8 @@
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
     gen:10098, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107, id-amr:10155, id-amr:10162,
-    id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233, id-amr:10241, id-amr:10246;
+    id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233, id-amr:10241, id-amr:10246,
+    id-amr:10259;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -1199,7 +1200,7 @@ id-amr:10209 a skos:Concept;
 id-amr:10210 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10211, id-amr:10212, id-amr:10213, id-amr:10214, id-amr:10215,
-    id-amr:10216, id-amr:10217, id-amr:10218, id-amr:10219, id-amr:10220;
+    id-amr:10216, id-amr:10217;
   skos:prefLabel "organisation level"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -1239,17 +1240,17 @@ id-amr:10217 a skos:Concept;
   skos:prefLabel "company department"@en .
 
 id-amr:10218 a skos:Concept;
-  skos:broader id-amr:10210;
+  skos:broader id-amr:10259;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "public funding"@en .
 
 id-amr:10219 a skos:Concept;
-  skos:broader id-amr:10210;
+  skos:broader id-amr:10259;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "private funding"@en .
 
 id-amr:10220 a skos:Concept;
-  skos:broader id-amr:10210;
+  skos:broader id-amr:10259;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "charity of philanthropic funding"@en .
 
@@ -1457,6 +1458,12 @@ id-amr:10258 a skos:Concept;
   skos:broader gen:10097;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "disease caused by insects"@en .
+
+id-amr:10259 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10218, id-amr:10219, id-amr:10220;
+  skos:prefLabel "funding type"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 gen:10007 skos:narrower gen:10011 .
 

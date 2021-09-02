@@ -245,9 +245,9 @@ id-amr:10214,research group,,,,id-amr:10210
 id-amr:10215,specific research project,,,,id-amr:10210
 id-amr:10216,reference centre,,,,id-amr:10210
 id-amr:10217,company department,,,,id-amr:10210
-id-amr:10218,public funding,,,,id-amr:10210
-id-amr:10219,private funding,,,,id-amr:10210
-id-amr:10220,charity of philanthropic funding,,,,id-amr:10210
+id-amr:10218,public funding,,,,id-amr:10259
+id-amr:10219,private funding,,,,id-amr:10259
+id-amr:10220,charity of philanthropic funding,,,,id-amr:10259
 id-amr:10221,collection status
 id-amr:10222,not started,,,,id-amr:10221
 id-amr:10223,in progress,,,,id-amr:10221
@@ -287,3 +287,4 @@ id-amr:10255,fungal disease,,,,gen:10097
 id-amr:10256,nematode disease,,,,gen:10097
 id-amr:10257,phytoplasma disease,,,,gen:10097
 id-amr:10258,disease caused by insects,,,,gen:10097
+id-amr:10259,funding type
