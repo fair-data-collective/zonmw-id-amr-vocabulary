@@ -144,13 +144,6 @@ gen:10024 a skos:Concept;
   skos:narrower covid19:10150, covid19:10151, covid19:10152, id-amr:10065;
   skos:prefLabel "microorganism"@en .
 
-gen:10025 a skos:Concept;
-  skos:broader gen:10008;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10047, id-amr:10060, id-amr:10061, id-amr:10062, id-amr:10063,
-    id-amr:10066;
-  skos:prefLabel "animal"@en, "disease"@en .
-
 gen:10003 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower covid19:10037, id-amr:10021, id-amr:10022, id-amr:10023, id-amr:10024,
@@ -529,6 +522,13 @@ covid19:10152 a skos:Concept;
   skos:exactMatch <http://purl.obolibrary.org/obo/NCIT_C28176>;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "parasite"@en .
+
+gen:10025 a skos:Concept;
+  skos:broader gen:10008;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10047, id-amr:10060, id-amr:10061, id-amr:10062, id-amr:10063,
+    id-amr:10066;
+  skos:prefLabel "animal"@en .
 
 id-amr:10087 a skos:Concept;
   skos:broader gen:10001;
