@@ -29,8 +29,9 @@
   pav:version "1.0.0"@en;
   skos:hasTopConcept gen:10001, gen:10003, gen:10004, gen:10005, gen:10008, gen:10009,
     gen:10011, gen:10096, gen:10097, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107,
-    id-amr:10155, id-amr:10162, id-amr:10210, id-amr:10221, id-amr:10225, id-amr:10233,
-    id-amr:10241, id-amr:10246, id-amr:10261;
+    id-amr:10155, id-amr:10162, id-amr:10164, id-amr:10179, id-amr:10210, id-amr:10221,
+    id-amr:10225, id-amr:10233, id-amr:10241, id-amr:10246, id-amr:10261, id-amr:10264,
+    id-amr:10265, id-amr:10266;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -964,26 +965,24 @@ id-amr:10161 a skos:Concept;
 
 id-amr:10162 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10163, id-amr:10164, id-amr:10165, id-amr:10166, id-amr:10167,
-    id-amr:10168, id-amr:10179, id-amr:10187;
-  skos:prefLabel "quality control information about biomaterials"@en;
+  skos:narrower id-amr:10165, id-amr:10166, id-amr:10167, id-amr:10187;
+  skos:prefLabel "quality control of biomaterials"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10163 a skos:Concept;
-  skos:broader gen:10005, id-amr:10162;
+  skos:broader gen:10005;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10170, id-amr:10171, id-amr:10172, id-amr:10173, id-amr:10174;
   skos:prefLabel "pre-analytical data"@en .
 
 id-amr:10164 a skos:Concept;
-  skos:broader id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "freeze thaw cycles"@en .
+  skos:prefLabel "quality management of pre-analytical data"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10165 a skos:Concept;
   skos:broader id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "concentration of molecular or cellurlar derivatives"@en .
+  skos:prefLabel "concentration of molecular or cellular derivatives"@en .
 
 id-amr:10166 a skos:Concept;
   skos:broader id-amr:10162;
@@ -996,40 +995,40 @@ id-amr:10167 a skos:Concept;
   skos:prefLabel "amplifiablility of nucleic acids"@en .
 
 id-amr:10168 a skos:Concept;
-  skos:broader id-amr:10162;
+  skos:broader id-amr:10264;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "sample storage"@en .
+  skos:prefLabel "storage format for long-term preservation"@en .
 
 id-amr:10170 a skos:Concept;
-  skos:broader id-amr:10163;
+  skos:broader id-amr:10264;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "type of primary container"@en .
 
 id-amr:10171 a skos:Concept;
-  skos:broader id-amr:10163;
+  skos:broader id-amr:10265;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "pre-centrifugation conditions"@en .
 
 id-amr:10172 a skos:Concept;
-  skos:broader id-amr:10163;
+  skos:broader id-amr:10265;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "centrifugaion conditions"@en .
+  skos:prefLabel "centrifugation conditions"@en .
 
 id-amr:10173 a skos:Concept;
-  skos:broader id-amr:10163;
+  skos:broader id-amr:10265;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "post-centrifugation conditions"@en .
 
 id-amr:10174 a skos:Concept;
-  skos:broader id-amr:10163;
+  skos:broader id-amr:10264;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "long-term storage conditions"@en .
+  skos:prefLabel "storage temperature for long-term preservation"@en .
 
 id-amr:10179 a skos:Concept;
-  skos:broader id-amr:10162;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10180, id-amr:10181, id-amr:10182;
-  skos:prefLabel "information about microbiological material"@en .
+  skos:prefLabel "quality control of microbiological material"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10180 a skos:Concept;
   skos:broader id-amr:10179;
@@ -1482,6 +1481,33 @@ id-amr:10261 a skos:Concept;
   skos:prefLabel "funding type"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
+id-amr:10262 a skos:Concept;
+  skos:broader <http://purl.org/zonmw/id-amr/\u002010164>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "storage"@en .
+
+id-amr:10263 a skos:Concept;
+  skos:broader <http://purl.org/zonmw/id-amr/\u002010164>;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "centrifugation"@en .
+
+id-amr:10264 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10168, id-amr:10170, id-amr:10174;
+  skos:prefLabel "storage information"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10265 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10171, id-amr:10172, id-amr:10173;
+  skos:prefLabel "centrifugation information"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
+id-amr:10266 a skos:Concept;
+  skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:prefLabel "viability frequency"@en;
+  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
+
 covid19:10154 skos:narrower id-amr:10110, id-amr:10123, id-amr:10128 .
 
 covid19:10157 skos:narrower id-amr:10138, id-amr:10139 .
@@ -1500,3 +1526,5 @@ covid19:10165 skos:narrower id-amr:10151, id-amr:10152, id-amr:10153, id-amr:101
 
 gen:10013 skos:narrower id-amr:10199, id-amr:10200, id-amr:10201, id-amr:10202, id-amr:10203,
     id-amr:10204, id-amr:10205, id-amr:10206, id-amr:10207, id-amr:10208 .
+
+<http://purl.org/zonmw/id-amr/\u002010164> skos:narrower id-amr:10262, id-amr:10263 .

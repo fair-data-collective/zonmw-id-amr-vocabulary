@@ -191,19 +191,19 @@ id-amr:10158,specimen from environment,,,,id-amr:10155,http://purl.bioontology.o
 id-amr:10159,plant specimen,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/119301009
 id-amr:10160,solution,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/8537005
 id-amr:10161,biomedical device,,,,id-amr:10155,http://purl.bioontology.org/ontology/SNOMEDCT/63653004
-id-amr:10162,quality control information about biomaterials
-id-amr:10163,pre-analytical data,,,,"id-amr:10162, gen:10005"
-id-amr:10164,freeze thaw cycles,,,,id-amr:10162
-id-amr:10165,concentration of molecular or cellurlar derivatives,,,,id-amr:10162
+id-amr:10162,quality control of biomaterials
+id-amr:10163,pre-analytical data,,,,gen:10005
+id-amr:10164,quality management of pre-analytical data 
+id-amr:10165,concentration of molecular or cellular derivatives,,,,id-amr:10162
 id-amr:10166,purity of nucleic acids,,,,id-amr:10162
 id-amr:10167,amplifiablility of nucleic acids,,,,id-amr:10162
-id-amr:10168,sample storage,,,,id-amr:10162
-id-amr:10170,type of primary container,,,,id-amr:10163
-id-amr:10171,pre-centrifugation conditions,,,,id-amr:10163
-id-amr:10172,centrifugaion conditions,,,,id-amr:10163
-id-amr:10173,post-centrifugation conditions,,,,id-amr:10163
-id-amr:10174,long-term storage conditions,,,,id-amr:10163
-id-amr:10179,information about microbiological material,,,,id-amr:10162
+id-amr:10168,storage format for long-term preservation,,,,id-amr:10264
+id-amr:10170,type of primary container,,,,id-amr:10264
+id-amr:10171,pre-centrifugation conditions,,,,id-amr:10265
+id-amr:10172,centrifugation conditions,,,,id-amr:10265
+id-amr:10173,post-centrifugation conditions,,,,id-amr:10265
+id-amr:10174,storage temperature for long-term preservation,,,,id-amr:10264
+id-amr:10179,quality control of microbiological material
 id-amr:10180,authenticity of microbiological material ,,,,id-amr:10179
 id-amr:10181,purity of microbiological material ,,,,id-amr:10179
 id-amr:10182,viability of microbiological material ,,,,id-amr:10179
@@ -290,3 +290,8 @@ id-amr:10259,parasite disease,,,,"gen:10097, gen:10096"
 id-amr:10260,non-infectious disease,,,,"gen:10097, gen:10096"
 gen:10096,animal disease
 id-amr:10261,funding type
+id-amr:10262,storage,,,,id-amr: 10164
+id-amr:10263,centrifugation,,,,id-amr: 10164
+id-amr:10264,storage information
+id-amr:10265,centrifugation information
+id-amr:10266,viability frequency
