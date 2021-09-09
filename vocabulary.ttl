@@ -31,7 +31,7 @@
     gen:10011, gen:10096, gen:10097, id-amr:10000, id-amr:10017, id-amr:10084, id-amr:10107,
     id-amr:10155, id-amr:10162, id-amr:10164, id-amr:10179, id-amr:10210, id-amr:10221,
     id-amr:10225, id-amr:10233, id-amr:10241, id-amr:10246, id-amr:10261, id-amr:10264,
-    id-amr:10265, id-amr:10266;
+    id-amr:10265;
   skos:prefLabel "ZonMW Project Controlled Vocabulary of Variables"@en .
 
 id-amr:10000 a skos:Concept;
@@ -976,6 +976,7 @@ id-amr:10163 a skos:Concept;
 
 id-amr:10164 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
+  skos:narrower id-amr:10262, id-amr:10263;
   skos:prefLabel "quality management of pre-analytical data"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
@@ -1361,7 +1362,7 @@ id-amr:10240 a skos:Concept;
 id-amr:10241 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10242, id-amr:10243, id-amr:10244, id-amr:10245;
-  skos:prefLabel "time frame"@en;
+  skos:prefLabel "viability frequency"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10242 a skos:Concept;
@@ -1482,12 +1483,12 @@ id-amr:10261 a skos:Concept;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 id-amr:10262 a skos:Concept;
-  skos:broader <http://purl.org/zonmw/id-amr/\u002010164>;
+  skos:broader id-amr:10164;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "storage"@en .
 
 id-amr:10263 a skos:Concept;
-  skos:broader <http://purl.org/zonmw/id-amr/\u002010164>;
+  skos:broader id-amr:10164;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "centrifugation"@en .
 
@@ -1501,11 +1502,6 @@ id-amr:10265 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10171, id-amr:10172, id-amr:10173;
   skos:prefLabel "centrifugation information"@en;
-  skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
-
-id-amr:10266 a skos:Concept;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "viability frequency"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 covid19:10154 skos:narrower id-amr:10110, id-amr:10123, id-amr:10128 .
@@ -1526,5 +1522,3 @@ covid19:10165 skos:narrower id-amr:10151, id-amr:10152, id-amr:10153, id-amr:101
 
 gen:10013 skos:narrower id-amr:10199, id-amr:10200, id-amr:10201, id-amr:10202, id-amr:10203,
     id-amr:10204, id-amr:10205, id-amr:10206, id-amr:10207, id-amr:10208 .
-
-<http://purl.org/zonmw/id-amr/\u002010164> skos:narrower id-amr:10262, id-amr:10263 .
