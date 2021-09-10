@@ -207,10 +207,10 @@ id-amr:10179,quality control of microbiological material
 id-amr:10180,authenticity of microbiological material ,,,,id-amr:10179
 id-amr:10181,purity of microbiological material ,,,,id-amr:10179
 id-amr:10182,viability of microbiological material ,,,,id-amr:10179
-id-amr:10183,once every year,,,,id-amr:10182
-id-amr:10184,every two years,,,,id-amr:10182
-id-amr:10185,every five years,,,,id-amr:10182
-id-amr:10186,less frequently,,,,id-amr:10182
+id-amr:10183,once every year,,,,id-amr:10266
+id-amr:10184,every two years,,,,id-amr:10266
+id-amr:10185,every five years,,,,id-amr:10266
+id-amr:10186,less frequently,,,,id-amr:10266
 id-amr:10187,integrity of nucleic acids,,,,id-amr:10162
 id-amr:10188,food specimen,,,,id-amr:10155
 covid19:10109,health record data,,,,covid19:10108
@@ -267,7 +267,7 @@ id-amr:10237,open only through collaboration,,,,id-amr:10233
 id-amr:10238,data access only,,,,id-amr:10233
 id-amr:10239,access restricted at present,,,,id-amr:10233
 id-amr:10240,closed to access,,,,id-amr:10233
-id-amr:10241,viability frequency
+id-amr:10241,time frame
 id-amr:10242,up to one month,,,,id-amr:10241
 id-amr:10243,up to one year,,,,id-amr:10241
 id-amr:10244,up to three years,,,,id-amr:10241
@@ -294,3 +294,4 @@ id-amr:10262,storage,,,,id-amr:10164
 id-amr:10263,centrifugation,,,,id-amr:10164
 id-amr:10264,storage information
 id-amr:10265,centrifugation information
+id-amr:10266,viability frequency
