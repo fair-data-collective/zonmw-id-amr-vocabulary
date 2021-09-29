@@ -113,20 +113,15 @@ id-amr:10013 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:prefLabel "prudent use"@en .
 
-id-amr:10014 a skos:Concept;
-  skos:broader id-amr:10084;
-  skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "One Health"@en .
-
 id-amr:10015 a skos:Concept;
   skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "human health"@en .
+  skos:prefLabel "human domain"@en .
 
 id-amr:10016 a skos:Concept;
   skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "animal health"@en .
+  skos:prefLabel "animal domain"@en .
 
 id-amr:10017 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
@@ -137,7 +132,7 @@ id-amr:10017 a skos:Concept;
 id-amr:10018 a skos:Concept;
   skos:broader id-amr:10084;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "environmental health"@en .
+  skos:prefLabel "environmental domain"@en .
 
 gen:10024 a skos:Concept;
   skos:broader gen:10008;
@@ -480,7 +475,7 @@ gen:10009 a skos:Concept;
 
 id-amr:10084 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:narrower id-amr:10014, id-amr:10015, id-amr:10016, id-amr:10018;
+  skos:narrower id-amr:10015, id-amr:10016, id-amr:10018;
   skos:prefLabel "health domain"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 

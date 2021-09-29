@@ -38,11 +38,10 @@ id-amr:10010,vector-borne disease,,,,gen:10001
 id-amr:10011,prion disease,,,,gen:10001
 id-amr:10012,microbiome,,,,gen:10001
 id-amr:10013,prudent use,,,,gen:10001
-id-amr:10014,One Health ,,,,id-amr:10084
-id-amr:10015,human health,,,,id-amr:10084
-id-amr:10016,animal health,,,,id-amr:10084
+id-amr:10015,human domain,,,,id-amr:10084
+id-amr:10016,animal domain,,,,id-amr:10084
 id-amr:10017,environment
-id-amr:10018,environmental health,,,,id-amr:10084
+id-amr:10018,environmental domain,,,,id-amr:10084
 gen:10024,microorganism,,,,gen:10008
 gen:10003,temporal scope
 id-amr:10021,diagnostic phase,,,,gen:10003
