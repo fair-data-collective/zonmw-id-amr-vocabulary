@@ -476,7 +476,7 @@ gen:10009 a skos:Concept;
 id-amr:10084 a skos:Concept;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
   skos:narrower id-amr:10015, id-amr:10016, id-amr:10018;
-  skos:prefLabel "health domain"@en;
+  skos:prefLabel "domain"@en;
   skos:topConceptOf <http://purl.org/zonmw/id-amr/> .
 
 covid19:10151 a skos:Concept;
