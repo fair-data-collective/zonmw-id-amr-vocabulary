@@ -409,7 +409,7 @@ id-amr:10071 a skos:Concept;
 id-amr:10072 a skos:Concept;
   skos:broader covid19:10108;
   skos:inScheme <http://purl.org/zonmw/id-amr/>;
-  skos:prefLabel "data with respect to resistance"@en .
+  skos:prefLabel "data regarding antimicrobial resistance"@en .
 
 id-amr:10073 a skos:Concept;
   skos:broader covid19:10109;

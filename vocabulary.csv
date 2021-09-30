@@ -94,7 +94,7 @@ id-amr:10068,epidemiological data,,,,covid19:10108
 id-amr:10069,diagnostics usage data,,,,covid19:10108
 id-amr:10070,complete medical records ,,,,covid19:10108
 id-amr:10071,imaging data,,,,covid19:10132
-id-amr:10072,data with respect to resistance,,,,covid19:10108
+id-amr:10072,data regarding antimicrobial resistance,,,,covid19:10108
 id-amr:10073,health status data,,,,covid19:10109
 id-amr:10074,taxonomical data,,,,gen:10005
 covid19:10125,survey data,,,,gen:10005
