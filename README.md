@@ -3,7 +3,7 @@
 # [ZonMw ID & AMR Controlled Vocabulary](http://purl.org/zonmw/id-amr/)
 Controlled vocabularies allow an accurate and controlled approach in describing physical and digital assets (e.g., data). One of such controlled vocabulary is **ZonMw COVID19 Controlled Vocabulary**. This controlled vocabulary is a result of series of [Metadata 4 Machine (M4M) Workshops](https://www.go-fair.org/zonmw-clusters-m4m-workshop-dates/) that run from XXX 2020 to XXX 2021 under Dutch ID (Infectious Diseases) & AMR (AntiMicrobial Resistance) program, which are funded by ZonMw. 
 
-`sheet2rdf` and `OntoStack`, developed by [FAIR Data Collective](https://dk.linkedin.com/company/fair-data-collective), are used to build and serve **ZonMw COVID19 Controlled Vocabulary**, while [PURL](https://archive.org/services/purl/) is used to persist identifiers for the vocabulary terms and properties:
+`sheet2rdf` and `OntoStack`, developed by Nikola Vasiljevic, are used to build and serve **ZonMw COVID19 Controlled Vocabulary**, while [PURL](https://archive.org/services/purl/) is used to persist identifiers for the vocabulary terms and properties:
 
    http://purl.org/zonmw/id-amr
 
